@@ -1,0 +1,2124 @@
+{
+  "verbs": [
+    {
+      "verb": "be",
+      "past_simple": "was/were",
+      "past_participle": "been",
+      "type": "irregular",
+      "future": "will be",
+      "meaning": "ser o estar"
+    },
+    {
+      "verb": "have",
+      "past_simple": "had",
+      "past_participle": "had",
+      "type": "irregular",
+      "future": "will have",
+      "meaning": "tener o haber"
+    },
+    {
+      "verb": "do",
+      "past_simple": "did",
+      "past_participle": "done",
+      "type": "irregular",
+      "future": "will do",
+      "meaning": "hacer"
+    },
+    {
+      "verb": "make",
+      "past_simple": "made",
+      "past_participle": "made",
+      "type": "irregular",
+      "future": "will make",
+      "meaning": "hacer (fabricar)"
+    },
+    {
+      "verb": "take",
+      "past_simple": "took",
+      "past_participle": "taken",
+      "type": "irregular",
+      "future": "will take",
+      "meaning": "tomar o llevar"
+    },
+    {
+      "verb": "come",
+      "past_simple": "came",
+      "past_participle": "come",
+      "type": "irregular",
+      "future": "will come",
+      "meaning": "venir"
+    },
+    {
+      "verb": "see",
+      "past_simple": "saw",
+      "past_participle": "seen",
+      "type": "irregular",
+      "future": "will see",
+      "meaning": "ver"
+    },
+    {
+      "verb": "know",
+      "past_simple": "knew",
+      "past_participle": "known",
+      "type": "irregular",
+      "future": "will know",
+      "meaning": "saber o conocer"
+    },
+    {
+      "verb": "get",
+      "past_simple": "got",
+      "past_participle": "gotten",
+      "type": "irregular",
+      "future": "will get",
+      "meaning": "obtener, conseguir o llegar"
+    },
+    {
+      "verb": "say",
+      "past_simple": "said",
+      "past_participle": "said",
+      "type": "irregular",
+      "future": "will say",
+      "meaning": "decir"
+    },
+    {
+      "verb": "tell",
+      "past_simple": "told",
+      "past_participle": "told",
+      "type": "irregular",
+      "future": "will tell",
+      "meaning": "decir o contar"
+    },
+    {
+      "verb": "think",
+      "past_simple": "thought",
+      "past_participle": "thought",
+      "type": "irregular",
+      "future": "will think",
+      "meaning": "pensar"
+    },
+    {
+      "verb": "want",
+      "past_simple": "wanted",
+      "past_participle": "wanted",
+      "type": "regular",
+      "future": "will want",
+      "meaning": "querer"
+    },
+    {
+      "verb": "like",
+      "past_simple": "liked",
+      "past_participle": "liked",
+      "type": "regular",
+      "future": "will like",
+      "meaning": "gustar"
+    },
+    {
+      "verb": "love",
+      "past_simple": "loved",
+      "past_participle": "loved",
+      "type": "regular",
+      "future": "will love",
+      "meaning": "amar"
+    },
+    {
+      "verb": "need",
+      "past_simple": "needed",
+      "past_participle": "needed",
+      "type": "regular",
+      "future": "will need",
+      "meaning": "necesitar"
+    },
+    {
+      "verb": "prefer",
+      "past_simple": "preferred",
+      "past_participle": "preferred",
+      "type": "regular",
+      "future": "will prefer",
+      "meaning": "preferir"
+    },
+    {
+      "verb": "believe",
+      "past_simple": "believed",
+      "past_participle": "believed",
+      "type": "regular",
+      "future": "will believe",
+      "meaning": "creer"
+    },
+    {
+      "verb": "feel",
+      "past_simple": "felt",
+      "past_participle": "felt",
+      "type": "irregular",
+      "future": "will feel",
+      "meaning": "sentir"
+    },
+    {
+      "verb": "look",
+      "past_simple": "looked",
+      "past_participle": "looked",
+      "type": "regular",
+      "future": "will look",
+      "meaning": "mirar"
+    },
+    {
+      "verb": "give",
+      "past_simple": "gave",
+      "past_participle": "given",
+      "type": "irregular",
+      "future": "will give",
+      "meaning": "dar"
+    },
+    {
+      "verb": "work",
+      "past_simple": "worked",
+      "past_participle": "worked",
+      "type": "regular",
+      "future": "will work",
+      "meaning": "trabajar"
+    },
+    {
+      "verb": "study",
+      "past_simple": "studied",
+      "past_participle": "studied",
+      "type": "regular",
+      "future": "will study",
+      "meaning": "estudiar"
+    },
+    {
+      "verb": "live",
+      "past_simple": "lived",
+      "past_participle": "lived",
+      "type": "regular",
+      "future": "will live",
+      "meaning": "vivir"
+    },
+    {
+      "verb": "stay",
+      "past_simple": "stayed",
+      "past_participle": "stayed",
+      "type": "regular",
+      "future": "will stay",
+      "meaning": "quedarse"
+    },
+    {
+      "verb": "leave",
+      "past_simple": "left",
+      "past_participle": "left",
+      "type": "irregular",
+      "future": "will leave",
+      "meaning": "dejar o salir"
+    },
+    {
+      "verb": "arrive",
+      "past_simple": "arrived",
+      "past_participle": "arrived",
+      "type": "regular",
+      "future": "will arrive",
+      "meaning": "llegar"
+    },
+    {
+      "verb": "start",
+      "past_simple": "started",
+      "past_participle": "started",
+      "type": "regular",
+      "future": "will start",
+      "meaning": "empezar"
+    },
+    {
+      "verb": "finish",
+      "past_simple": "finished",
+      "past_participle": "finished",
+      "type": "regular",
+      "future": "will finish",
+      "meaning": "terminar"
+    },
+    {
+      "verb": "play",
+      "past_simple": "played",
+      "past_participle": "played",
+      "type": "regular",
+      "future": "will play",
+      "meaning": "jugar o tocar (instrumento)"
+    },
+    {
+      "verb": "watch",
+      "past_simple": "watched",
+      "past_participle": "watched",
+      "type": "regular",
+      "future": "will watch",
+      "meaning": "observar o ver (TV)"
+    },
+    {
+      "verb": "listen",
+      "past_simple": "listened",
+      "past_participle": "listened",
+      "type": "regular",
+      "future": "will listen",
+      "meaning": "escuchar"
+    },
+    {
+      "verb": "speak",
+      "past_simple": "spoke",
+      "past_participle": "spoken",
+      "type": "irregular",
+      "future": "will speak",
+      "meaning": "hablar"
+    },
+    {
+      "verb": "talk",
+      "past_simple": "talked",
+      "past_participle": "talked",
+      "type": "regular",
+      "future": "will talk",
+      "meaning": "conversar"
+    },
+    {
+      "verb": "ask",
+      "past_simple": "asked",
+      "past_participle": "asked",
+      "type": "regular",
+      "future": "will ask",
+      "meaning": "preguntar o pedir"
+    },
+    {
+      "verb": "answer",
+      "past_simple": "answered",
+      "past_participle": "answered",
+      "type": "regular",
+      "future": "will answer",
+      "meaning": "responder"
+    },
+    {
+      "verb": "help",
+      "past_simple": "helped",
+      "past_participle": "helped",
+      "type": "regular",
+      "future": "will help",
+      "meaning": "ayudar"
+    },
+    {
+      "verb": "use",
+      "past_simple": "used",
+      "past_participle": "used",
+      "type": "regular",
+      "future": "will use",
+      "meaning": "usar"
+    },
+    {
+      "verb": "try",
+      "past_simple": "tried",
+      "past_participle": "tried",
+      "type": "regular",
+      "future": "will try",
+      "meaning": "intentar o tratar"
+    },
+    {
+      "verb": "remember",
+      "past_simple": "remembered",
+      "past_participle": "remembered",
+      "type": "regular",
+      "future": "will remember",
+      "meaning": "recordar"
+    },
+    {
+      "verb": "forget",
+      "past_simple": "forgot",
+      "past_participle": "forgotten",
+      "type": "irregular",
+      "future": "will forget",
+      "meaning": "olvidar"
+    },
+    {
+      "verb": "open",
+      "past_simple": "opened",
+      "past_participle": "opened",
+      "type": "regular",
+      "future": "will open",
+      "meaning": "abrir"
+    },
+    {
+      "verb": "close",
+      "past_simple": "closed",
+      "past_participle": "closed",
+      "type": "regular",
+      "future": "will close",
+      "meaning": "cerrar"
+    },
+    {
+      "verb": "buy",
+      "past_simple": "bought",
+      "past_participle": "bought",
+      "type": "irregular",
+      "future": "will buy",
+      "meaning": "comprar"
+    },
+    {
+      "verb": "sell",
+      "past_simple": "sold",
+      "past_participle": "sold",
+      "type": "irregular",
+      "future": "will sell",
+      "meaning": "vender"
+    },
+    {
+      "verb": "pay",
+      "past_simple": "paid",
+      "past_participle": "paid",
+      "type": "irregular",
+      "future": "will pay",
+      "meaning": "pagar"
+    },
+    {
+      "verb": "cost",
+      "past_simple": "cost",
+      "past_participle": "cost",
+      "type": "irregular",
+      "future": "will cost",
+      "meaning": "costar"
+    },
+    {
+      "verb": "choose",
+      "past_simple": "chose",
+      "past_participle": "chosen",
+      "type": "irregular",
+      "future": "will choose",
+      "meaning": "elegir"
+    },
+    {
+      "verb": "decide",
+      "past_simple": "decided",
+      "past_participle": "decided",
+      "type": "regular",
+      "future": "will decide",
+      "meaning": "decidir"
+    },
+    {
+      "verb": "change",
+      "past_simple": "changed",
+      "past_participle": "changed",
+      "type": "regular",
+      "future": "will change",
+      "meaning": "cambiar"
+    },
+    {
+      "verb": "keep",
+      "past_simple": "kept",
+      "past_participle": "kept",
+      "type": "irregular",
+      "future": "will keep",
+      "meaning": "mantener o guardar"
+    },
+    {
+      "verb": "find",
+      "past_simple": "found",
+      "past_participle": "found",
+      "type": "irregular",
+      "future": "will find",
+      "meaning": "encontrar"
+    },
+    {
+      "verb": "lose",
+      "past_simple": "lost",
+      "past_participle": "lost",
+      "type": "irregular",
+      "future": "will lose",
+      "meaning": "perder"
+    },
+    {
+      "verb": "win",
+      "past_simple": "won",
+      "past_participle": "won",
+      "type": "irregular",
+      "future": "will win",
+      "meaning": "ganar"
+    },
+    {
+      "verb": "meet",
+      "past_simple": "met",
+      "past_participle": "met",
+      "type": "irregular",
+      "future": "will meet",
+      "meaning": "conocer o reunirse"
+    },
+    {
+      "verb": "visit",
+      "past_simple": "visited",
+      "past_participle": "visited",
+      "type": "regular",
+      "future": "will visit",
+      "meaning": "visitar"
+    },
+    {
+      "verb": "travel",
+      "past_simple": "travelled",
+      "past_participle": "travelled",
+      "type": "regular",
+      "future": "will travel",
+      "meaning": "viajar"
+    },
+    {
+      "verb": "plan",
+      "past_simple": "planned",
+      "past_participle": "planned",
+      "type": "regular",
+      "future": "will plan",
+      "meaning": "planear"
+    },
+    {
+      "verb": "prepare",
+      "past_simple": "prepared",
+      "past_participle": "prepared",
+      "type": "regular",
+      "future": "will prepare",
+      "meaning": "preparar"
+    },
+    {
+      "verb": "cook",
+      "past_simple": "cooked",
+      "past_participle": "cooked",
+      "type": "regular",
+      "future": "will cook",
+      "meaning": "cocinar"
+    },
+    {
+      "verb": "eat",
+      "past_simple": "ate",
+      "past_participle": "eaten",
+      "type": "irregular",
+      "future": "will eat",
+      "meaning": "comer"
+    },
+    {
+      "verb": "drink",
+      "past_simple": "drank",
+      "past_participle": "drunk",
+      "type": "irregular",
+      "future": "will drink",
+      "meaning": "beber"
+    },
+    {
+      "verb": "sleep",
+      "past_simple": "slept",
+      "past_participle": "slept",
+      "type": "irregular",
+      "future": "will sleep",
+      "meaning": "dormir"
+    },
+    {
+      "verb": "wake",
+      "past_simple": "woke",
+      "past_participle": "woken",
+      "type": "irregular",
+      "future": "will wake",
+      "meaning": "despertar"
+    },
+    {
+      "verb": "shower",
+      "past_simple": "showered",
+      "past_participle": "showered",
+      "type": "regular",
+      "future": "will shower",
+      "meaning": "ducharse"
+    },
+    {
+      "verb": "wash",
+      "past_simple": "washed",
+      "past_participle": "washed",
+      "type": "regular",
+      "future": "will wash",
+      "meaning": "lavar"
+    },
+    {
+      "verb": "clean",
+      "past_simple": "cleaned",
+      "past_participle": "cleaned",
+      "type": "regular",
+      "future": "will clean",
+      "meaning": "limpiar"
+    },
+    {
+      "verb": "drive",
+      "past_simple": "drove",
+      "past_participle": "driven",
+      "type": "irregular",
+      "future": "will drive",
+      "meaning": "conducir"
+    },
+    {
+      "verb": "ride",
+      "past_simple": "rode",
+      "past_participle": "ridden",
+      "type": "irregular",
+      "future": "will ride",
+      "meaning": "montar (bici/caballo)"
+    },
+    {
+      "verb": "fly",
+      "past_simple": "flew",
+      "past_participle": "flown",
+      "type": "irregular",
+      "future": "will fly",
+      "meaning": "volar"
+    },
+    {
+      "verb": "run",
+      "past_simple": "ran",
+      "past_participle": "run",
+      "type": "irregular",
+      "future": "will run",
+      "meaning": "correr"
+    },
+    {
+      "verb": "walk",
+      "past_simple": "walked",
+      "past_participle": "walked",
+      "type": "regular",
+      "future": "will walk",
+      "meaning": "caminar"
+    },
+    {
+      "verb": "sit",
+      "past_simple": "sat",
+      "past_participle": "sat",
+      "type": "irregular",
+      "future": "will sit",
+      "meaning": "sentarse"
+    },
+    {
+      "verb": "stand",
+      "past_simple": "stood",
+      "past_participle": "stood",
+      "type": "irregular",
+      "future": "will stand",
+      "meaning": "estar de pie"
+    },
+    {
+      "verb": "carry",
+      "past_simple": "carried",
+      "past_participle": "carried",
+      "type": "regular",
+      "future": "will carry",
+      "meaning": "llevar o cargar"
+    },
+    {
+      "verb": "bring",
+      "past_simple": "brought",
+      "past_participle": "brought",
+      "type": "irregular",
+      "future": "will bring",
+      "meaning": "traer"
+    },
+    {
+      "verb": "send",
+      "past_simple": "sent",
+      "past_participle": "sent",
+      "type": "irregular",
+      "future": "will send",
+      "meaning": "enviar"
+    },
+    {
+      "verb": "receive",
+      "past_simple": "received",
+      "past_participle": "received",
+      "type": "regular",
+      "future": "will receive",
+      "meaning": "recibir"
+    },
+    {
+      "verb": "read",
+      "past_simple": "read",
+      "past_participle": "read",
+      "type": "irregular",
+      "future": "will read",
+      "meaning": "leer"
+    },
+    {
+      "verb": "write",
+      "past_simple": "wrote",
+      "past_participle": "written",
+      "type": "irregular",
+      "future": "will write",
+      "meaning": "escribir"
+    },
+    {
+      "verb": "learn",
+      "past_simple": "learned",
+      "past_participle": "learned",
+      "type": "regular",
+      "future": "will learn",
+      "meaning": "aprender"
+    },
+    {
+      "verb": "teach",
+      "past_simple": "taught",
+      "past_participle": "taught",
+      "type": "irregular",
+      "future": "will teach",
+      "meaning": "enseñar"
+    },
+    {
+      "verb": "explain",
+      "past_simple": "explained",
+      "past_participle": "explained",
+      "type": "regular",
+      "future": "will explain",
+      "meaning": "explicar"
+    },
+    {
+      "verb": "show",
+      "past_simple": "showed",
+      "past_participle": "shown",
+      "type": "irregular",
+      "future": "will show",
+      "meaning": "mostrar"
+    },
+    {
+      "verb": "build",
+      "past_simple": "built",
+      "past_participle": "built",
+      "type": "irregular",
+      "future": "will build",
+      "meaning": "construir"
+    },
+    {
+      "verb": "grow",
+      "past_simple": "grew",
+      "past_participle": "grown",
+      "type": "irregular",
+      "future": "will grow",
+      "meaning": "crecer"
+    },
+    {
+      "verb": "increase",
+      "past_simple": "increased",
+      "past_participle": "increased",
+      "type": "regular",
+      "future": "will increase",
+      "meaning": "aumentar"
+    },
+    {
+      "verb": "decrease",
+      "past_simple": "decreased",
+      "past_participle": "decreased",
+      "type": "regular",
+      "future": "will decrease",
+      "meaning": "disminuir"
+    },
+    {
+      "verb": "improve",
+      "past_simple": "improved",
+      "past_participle": "improved",
+      "type": "regular",
+      "future": "will improve",
+      "meaning": "mejorar"
+    },
+    {
+      "verb": "fail",
+      "past_simple": "failed",
+      "past_participle": "failed",
+      "type": "regular",
+      "future": "will fail",
+      "meaning": "fallar o fracasar"
+    },
+    {
+      "verb": "succeed",
+      "past_simple": "succeeded",
+      "past_participle": "succeeded",
+      "type": "regular",
+      "future": "will succeed",
+      "meaning": "tener éxito"
+    },
+    {
+      "verb": "sign",
+      "past_simple": "signed",
+      "past_participle": "signed",
+      "type": "regular",
+      "future": "will sign",
+      "meaning": "firmar"
+    },
+    {
+      "verb": "rent",
+      "past_simple": "rented",
+      "past_participle": "rented",
+      "type": "regular",
+      "future": "will rent",
+      "meaning": "alquilar"
+    },
+    {
+      "verb": "borrow",
+      "past_simple": "borrowed",
+      "past_participle": "borrowed",
+      "type": "regular",
+      "future": "will borrow",
+      "meaning": "pedir prestado"
+    },
+    {
+      "verb": "lend",
+      "past_simple": "lent",
+      "past_participle": "lent",
+      "type": "irregular",
+      "future": "will lend",
+      "meaning": "prestar"
+    },
+    {
+      "verb": "agree",
+      "past_simple": "agreed",
+      "past_participle": "agreed",
+      "type": "regular",
+      "future": "will agree",
+      "meaning": "estar de acuerdo"
+    },
+    {
+      "verb": "disagree",
+      "past_simple": "disagreed",
+      "past_participle": "disagreed",
+      "type": "regular",
+      "future": "will disagree",
+      "meaning": "no estar de acuerdo"
+    },
+    {
+      "verb": "include",
+      "past_simple": "included",
+      "past_participle": "included",
+      "type": "regular",
+      "future": "will include",
+      "meaning": "incluir"
+    },
+    {
+      "verb": "depend",
+      "past_simple": "depended",
+      "past_participle": "depended",
+      "type": "regular",
+      "future": "will depend",
+      "meaning": "depender"
+    },
+    {
+      "verb": "consist",
+      "past_simple": "consisted",
+      "past_participle": "consisted",
+      "type": "regular",
+      "future": "will consist",
+      "meaning": "consistir"
+    },
+    {
+      "verb": "contain",
+      "past_simple": "contained",
+      "past_participle": "contained",
+      "type": "regular",
+      "future": "will contain",
+      "meaning": "contener"
+    },
+    {
+      "verb": "suggest",
+      "past_simple": "suggested",
+      "past_participle": "suggested",
+      "type": "regular",
+      "future": "will suggest",
+      "meaning": "sugerir"
+    },
+    {
+      "verb": "recommend",
+      "past_simple": "recommended",
+      "past_participle": "recommended",
+      "type": "regular",
+      "future": "will recommend",
+      "meaning": "recomendar"
+    },
+    {
+      "verb": "promise",
+      "past_simple": "promised",
+      "past_participle": "promised",
+      "type": "regular",
+      "future": "will promise",
+      "meaning": "prometer"
+    },
+    {
+      "verb": "hope",
+      "past_simple": "hoped",
+      "past_participle": "hoped",
+      "type": "regular",
+      "future": "will hope",
+      "meaning": "esperar (esperanza)"
+    },
+    {
+      "verb": "wish",
+      "past_simple": "wished",
+      "past_participle": "wished",
+      "type": "regular",
+      "future": "will wish",
+      "meaning": "desear"
+    },
+    {
+      "verb": "expect",
+      "past_simple": "expected",
+      "past_participle": "expected",
+      "type": "regular",
+      "future": "will expect",
+      "meaning": "esperar (expectativa)"
+    },
+    {
+      "verb": "accept",
+      "past_simple": "accepted",
+      "past_participle": "accepted",
+      "type": "regular",
+      "future": "will accept",
+      "meaning": "aceptar"
+    },
+    {
+      "verb": "refuse",
+      "past_simple": "refused",
+      "past_participle": "refused",
+      "type": "regular",
+      "future": "will refuse",
+      "meaning": "rechazar"
+    },
+    {
+      "verb": "celebrate",
+      "past_simple": "celebrated",
+      "past_participle": "celebrated",
+      "type": "regular",
+      "future": "will celebrate",
+      "meaning": "celebrar"
+    },
+    {
+      "verb": "enjoy",
+      "past_simple": "enjoyed",
+      "past_participle": "enjoyed",
+      "type": "regular",
+      "future": "will enjoy",
+      "meaning": "disfrutar"
+    },
+    {
+      "verb": "worry",
+      "past_simple": "worried",
+      "past_participle": "worried",
+      "type": "regular",
+      "future": "will worry",
+      "meaning": "preocuparse"
+    },
+    {
+      "verb": "relax",
+      "past_simple": "relaxed",
+      "past_participle": "relaxed",
+      "type": "regular",
+      "future": "will relax",
+      "meaning": "relajarse"
+    },
+    {
+      "verb": "smile",
+      "past_simple": "smiled",
+      "past_participle": "smiled",
+      "type": "regular",
+      "future": "will smile",
+      "meaning": "sonreír"
+    },
+    {
+      "verb": "cry",
+      "past_simple": "cried",
+      "past_participle": "cried",
+      "type": "regular",
+      "future": "will cry",
+      "meaning": "llorar"
+    },
+    {
+      "verb": "laugh",
+      "past_simple": "laughed",
+      "past_participle": "laughed",
+      "type": "regular",
+      "future": "will laugh",
+      "meaning": "reír"
+    },
+    {
+      "verb": "shout",
+      "past_simple": "shouted",
+      "past_participle": "shouted",
+      "type": "regular",
+      "future": "will shout",
+      "meaning": "gritar"
+    },
+    {
+      "verb": "whisper",
+      "past_simple": "whispered",
+      "past_participle": "whispered",
+      "type": "regular",
+      "future": "will whisper",
+      "meaning": "susurrar"
+    },
+    {
+      "verb": "call",
+      "past_simple": "called",
+      "past_participle": "called",
+      "type": "regular",
+      "future": "will call",
+      "meaning": "llamar"
+    },
+    {
+      "verb": "text",
+      "past_simple": "texted",
+      "past_participle": "texted",
+      "type": "regular",
+      "future": "will text",
+      "meaning": "mensajear"
+    },
+    {
+      "verb": "email",
+      "past_simple": "emailed",
+      "past_participle": "emailed",
+      "type": "regular",
+      "future": "will email",
+      "meaning": "enviar un correo"
+    },
+    {
+      "verb": "arrange",
+      "past_simple": "arranged",
+      "past_participle": "arranged",
+      "type": "regular",
+      "future": "will arrange",
+      "meaning": "organizar o arreglar"
+    },
+    {
+      "verb": "organize",
+      "past_simple": "organized",
+      "past_participle": "organized",
+      "type": "regular",
+      "future": "will organize",
+      "meaning": "organizar"
+    },
+    {
+      "verb": "decorate",
+      "past_simple": "decorated",
+      "past_participle": "decorated",
+      "type": "regular",
+      "future": "will decorate",
+      "meaning": "decorar"
+    },
+    {
+      "verb": "invite",
+      "past_simple": "invited",
+      "past_participle": "invited",
+      "type": "regular",
+      "future": "will invite",
+      "meaning": "invitar"
+    },
+    {
+      "verb": "attend",
+      "past_simple": "attended",
+      "past_participle": "attended",
+      "type": "regular",
+      "future": "will attend",
+      "meaning": "asistir"
+    },
+    {
+      "verb": "cancel",
+      "past_simple": "cancelled",
+      "past_participle": "cancelled",
+      "type": "regular",
+      "future": "will cancel",
+      "meaning": "cancelar"
+    },
+    {
+      "verb": "postpone",
+      "past_simple": "postponed",
+      "past_participle": "postponed",
+      "type": "regular",
+      "future": "will postpone",
+      "meaning": "posponer"
+    },
+    {
+      "verb": "join",
+      "past_simple": "joined",
+      "past_participle": "joined",
+      "type": "regular",
+      "future": "will join",
+      "meaning": "unirse"
+    },
+    {
+      "verb": "replace",
+      "past_simple": "replaced",
+      "past_participle": "replaced",
+      "type": "regular",
+      "future": "will replace",
+      "meaning": "reemplazar"
+    },
+    {
+      "verb": "repair",
+      "past_simple": "repaired",
+      "past_participle": "repaired",
+      "type": "regular",
+      "future": "will repair",
+      "meaning": "reparar"
+    },
+    {
+      "verb": "fix",
+      "past_simple": "fixed",
+      "past_participle": "fixed",
+      "type": "regular",
+      "future": "will fix",
+      "meaning": "arreglar"
+    },
+    {
+      "verb": "search",
+      "past_simple": "searched",
+      "past_participle": "searched",
+      "type": "regular",
+      "future": "will search",
+      "meaning": "buscar"
+    },
+    {
+      "verb": "stop",
+      "past_simple": "stopped",
+      "past_participle": "stopped",
+      "type": "regular",
+      "future": "will stop",
+      "meaning": "detener o parar"
+    },
+    {
+      "verb": "continue",
+      "past_simple": "continued",
+      "past_participle": "continued",
+      "type": "regular",
+      "future": "will continue",
+      "meaning": "continuar"
+    },
+    {
+      "verb": "intend",
+      "past_simple": "intended",
+      "past_participle": "intended",
+      "type": "regular",
+      "future": "will intend",
+      "meaning": "tener la intención de"
+    },
+    {
+      "verb": "manage",
+      "past_simple": "managed",
+      "past_participle": "managed",
+      "type": "regular",
+      "future": "will manage",
+      "meaning": "gestionar o lograr"
+    },
+    {
+      "verb": "mention",
+      "past_simple": "mentioned",
+      "past_participle": "mentioned",
+      "type": "regular",
+      "future": "will mention",
+      "meaning": "mencionar"
+    },
+    {
+      "verb": "describe",
+      "past_simple": "described",
+      "past_participle": "described",
+      "type": "regular",
+      "future": "will describe",
+      "meaning": "describir"
+    },
+    {
+      "verb": "compare",
+      "past_simple": "compared",
+      "past_participle": "compared",
+      "type": "regular",
+      "future": "will compare",
+      "meaning": "comparar"
+    },
+    {
+      "verb": "examine",
+      "past_simple": "examined",
+      "past_participle": "examined",
+      "type": "regular",
+      "future": "will examine",
+      "meaning": "examinar"
+    },
+    {
+      "verb": "discuss",
+      "past_simple": "discussed",
+      "past_participle": "discussed",
+      "type": "regular",
+      "future": "will discuss",
+      "meaning": "discutir o debatir"
+    },
+    {
+      "verb": "argue",
+      "past_simple": "argued",
+      "past_participle": "argued",
+      "type": "regular",
+      "future": "will argue",
+      "meaning": "discutir o argumentar"
+    },
+    {
+      "verb": "reply",
+      "past_simple": "replied",
+      "past_participle": "replied",
+      "type": "regular",
+      "future": "will reply",
+      "meaning": "responder"
+    },
+    {
+      "verb": "notice",
+      "past_simple": "noticed",
+      "past_participle": "noticed",
+      "type": "regular",
+      "future": "will notice",
+      "meaning": "notar o darse cuenta"
+    },
+    {
+      "verb": "recognize",
+      "past_simple": "recognized",
+      "past_participle": "recognized",
+      "type": "regular",
+      "future": "will recognize",
+      "meaning": "reconocer"
+    },
+    {
+      "verb": "reserve",
+      "past_simple": "reserved",
+      "past_participle": "reserved",
+      "type": "regular",
+      "future": "will reserve",
+      "meaning": "reservar"
+    },
+    {
+      "verb": "book",
+      "past_simple": "booked",
+      "past_participle": "booked",
+      "type": "regular",
+      "future": "will book",
+      "meaning": "reservar"
+    },
+    {
+      "verb": "check",
+      "past_simple": "checked",
+      "past_participle": "checked",
+      "type": "regular",
+      "future": "will check",
+      "meaning": "revisar o comprobar"
+    },
+    {
+      "verb": "confirm",
+      "past_simple": "confirmed",
+      "past_participle": "confirmed",
+      "type": "regular",
+      "future": "will confirm",
+      "meaning": "confirmar"
+    },
+    {
+      "verb": "print",
+      "past_simple": "printed",
+      "past_participle": "printed",
+      "type": "regular",
+      "future": "will print",
+      "meaning": "imprimir"
+    },
+    {
+      "verb": "copy",
+      "past_simple": "copied",
+      "past_participle": "copied",
+      "type": "regular",
+      "future": "will copy",
+      "meaning": "copiar"
+    },
+    {
+      "verb": "paste",
+      "past_simple": "pasted",
+      "past_participle": "pasted",
+      "type": "regular",
+      "future": "will paste",
+      "meaning": "pegar"
+    },
+    {
+      "verb": "download",
+      "past_simple": "downloaded",
+      "past_participle": "downloaded",
+      "type": "regular",
+      "future": "will download",
+      "meaning": "descargar"
+    },
+    {
+      "verb": "upload",
+      "past_simple": "uploaded",
+      "past_participle": "uploaded",
+      "type": "regular",
+      "future": "will upload",
+      "meaning": "subir (archivos)"
+    },
+    {
+      "verb": "save",
+      "past_simple": "saved",
+      "past_participle": "saved",
+      "type": "regular",
+      "future": "will save",
+      "meaning": "guardar o salvar"
+    },
+    {
+      "verb": "delete",
+      "past_simple": "deleted",
+      "past_participle": "deleted",
+      "type": "regular",
+      "future": "will delete",
+      "meaning": "borrar"
+    },
+    {
+      "verb": "edit",
+      "past_simple": "edited",
+      "past_participle": "edited",
+      "type": "regular",
+      "future": "will edit",
+      "meaning": "editar"
+    },
+    {
+      "verb": "install",
+      "past_simple": "installed",
+      "past_participle": "installed",
+      "type": "regular",
+      "future": "will install",
+      "meaning": "instalar"
+    },
+    {
+      "verb": "uninstall",
+      "past_simple": "uninstalled",
+      "past_participle": "uninstalled",
+      "type": "regular",
+      "future": "will uninstall",
+      "meaning": "desinstalar"
+    },
+    {
+      "verb": "support",
+      "past_simple": "supported",
+      "past_participle": "supported",
+      "type": "regular",
+      "future": "will support",
+      "meaning": "apoyar o soportar"
+    },
+    {
+      "verb": "protect",
+      "past_simple": "protected",
+      "past_participle": "protected",
+      "type": "regular",
+      "future": "will protect",
+      "meaning": "proteger"
+    },
+    {
+      "verb": "share",
+      "past_simple": "shared",
+      "past_participle": "shared",
+      "type": "regular",
+      "future": "will share",
+      "meaning": "compartir"
+    },
+    {
+      "verb": "connect",
+      "past_simple": "connected",
+      "past_participle": "connected",
+      "type": "regular",
+      "future": "will connect",
+      "meaning": "conectar"
+    },
+    {
+      "verb": "disconnect",
+      "past_simple": "disconnected",
+      "past_participle": "disconnected",
+      "type": "regular",
+      "future": "will disconnect",
+      "meaning": "desconectar"
+    },
+    {
+      "verb": "submit",
+      "past_simple": "submitted",
+      "past_participle": "submitted",
+      "type": "regular",
+      "future": "will submit",
+      "meaning": "enviar o presentar"
+    },
+    {
+      "verb": "apply",
+      "past_simple": "applied",
+      "past_participle": "applied",
+      "type": "regular",
+      "future": "will apply",
+      "meaning": "aplicar o solicitar"
+    },
+    {
+      "verb": "enrol",
+      "past_simple": "enrolled",
+      "past_participle": "enrolled",
+      "type": "regular",
+      "future": "will enrol",
+      "meaning": "inscribirse"
+    },
+    {
+      "verb": "graduate",
+      "past_simple": "graduated",
+      "past_participle": "graduated",
+      "type": "regular",
+      "future": "will graduate",
+      "meaning": "graduarse"
+    },
+    {
+      "verb": "participate",
+      "past_simple": "participated",
+      "past_participle": "participated",
+      "type": "regular",
+      "future": "will participate",
+      "meaning": "participar"
+    },
+    {
+      "verb": "compete",
+      "past_simple": "competed",
+      "past_participle": "competed",
+      "type": "regular",
+      "future": "will compete",
+      "meaning": "competir"
+    },
+    {
+      "verb": "train",
+      "past_simple": "trained",
+      "past_participle": "trained",
+      "type": "regular",
+      "future": "will train",
+      "meaning": "entrenar"
+    },
+    {
+      "verb": "practice",
+      "past_simple": "practiced",
+      "past_participle": "practiced",
+      "type": "regular",
+      "future": "will practice",
+      "meaning": "practicar"
+    },
+    {
+      "verb": "exercise",
+      "past_simple": "exercised",
+      "past_participle": "exercised",
+      "type": "regular",
+      "future": "will exercise",
+      "meaning": "ejercitarse"
+    },
+    {
+      "verb": "measure",
+      "past_simple": "measured",
+      "past_participle": "measured",
+      "type": "regular",
+      "future": "will measure",
+      "meaning": "medir"
+    },
+    {
+      "verb": "count",
+      "past_simple": "counted",
+      "past_participle": "counted",
+      "type": "regular",
+      "future": "will count",
+      "meaning": "contar"
+    },
+    {
+      "verb": "charge",
+      "past_simple": "charged",
+      "past_participle": "charged",
+      "type": "regular",
+      "future": "will charge",
+      "meaning": "cargar o cobrar"
+    },
+    {
+      "verb": "bend",
+      "past_simple": "bent",
+      "past_participle": "bent",
+      "type": "irregular",
+      "future": "will bend",
+      "meaning": "doblar o inclinarse"
+    },
+    {
+      "verb": "fold",
+      "past_simple": "folded",
+      "past_participle": "folded",
+      "type": "regular",
+      "future": "will fold",
+      "meaning": "plegar o doblar"
+    },
+    {
+      "verb": "mix",
+      "past_simple": "mixed",
+      "past_participle": "mixed",
+      "type": "regular",
+      "future": "will mix",
+      "meaning": "mezclar"
+    },
+    {
+      "verb": "slice",
+      "past_simple": "sliced",
+      "past_participle": "sliced",
+      "type": "regular",
+      "future": "will slice",
+      "meaning": "rebanar"
+    },
+    {
+      "verb": "serve",
+      "past_simple": "served",
+      "past_participle": "served",
+      "type": "regular",
+      "future": "will serve",
+      "meaning": "servir"
+    },
+    {
+      "verb": "taste",
+      "past_simple": "tasted",
+      "past_participle": "tasted",
+      "type": "regular",
+      "future": "will taste",
+      "meaning": "probar o saber a"
+    },
+    {
+      "verb": "smell",
+      "past_simple": "smelt",
+      "past_participle": "smelt",
+      "type": "irregular",
+      "future": "will smell",
+      "meaning": "oler"
+    },
+    {
+      "verb": "touch",
+      "past_simple": "touched",
+      "past_participle": "touched",
+      "type": "regular",
+      "future": "will touch",
+      "meaning": "tocar"
+    },
+    {
+      "verb": "follow",
+      "past_simple": "followed",
+      "past_participle": "followed",
+      "type": "regular",
+      "future": "will follow",
+      "meaning": "seguir"
+    },
+    {
+      "verb": "lead",
+      "past_simple": "led",
+      "past_participle": "led",
+      "type": "irregular",
+      "future": "will lead",
+      "meaning": "guiar o liderar"
+    },
+    {
+      "verb": "guide",
+      "past_simple": "guided",
+      "past_participle": "guided",
+      "type": "regular",
+      "future": "will guide",
+      "meaning": "guiar"
+    },
+    {
+      "verb": "cross",
+      "past_simple": "crossed",
+      "past_participle": "crossed",
+      "type": "regular",
+      "future": "will cross",
+      "meaning": "cruzar"
+    },
+    {
+      "verb": "turn",
+      "past_simple": "turned",
+      "past_participle": "turned",
+      "type": "regular",
+      "future": "will turn",
+      "meaning": "girar o dar la vuelta"
+    },
+    {
+      "verb": "return",
+      "past_simple": "returned",
+      "past_participle": "returned",
+      "type": "regular",
+      "future": "will return",
+      "meaning": "volver o devolver"
+    },
+    {
+      "verb": "belong",
+      "past_simple": "belonged",
+      "past_participle": "belonged",
+      "type": "regular",
+      "future": "will belong",
+      "meaning": "pertenecer"
+    },
+    {
+      "verb": "wait",
+      "past_simple": "waited",
+      "past_participle": "waited",
+      "type": "regular",
+      "future": "will wait",
+      "meaning": "esperar"
+    },
+    {
+      "verb": "consider",
+      "past_simple": "considered",
+      "past_participle": "considered",
+      "type": "regular",
+      "future": "will consider",
+      "meaning": "considerar"
+    },
+    {
+      "verb": "announce",
+      "past_simple": "announced",
+      "past_participle": "announced",
+      "type": "regular",
+      "future": "will announce",
+      "meaning": "anunciar"
+    },
+    {
+      "verb": "balance",
+      "past_simple": "balanced",
+      "past_participle": "balanced",
+      "type": "regular",
+      "future": "will balance",
+      "meaning": "equilibrar"
+    },
+    {
+      "verb": "bother",
+      "past_simple": "bothered",
+      "past_participle": "bothered",
+      "type": "regular",
+      "future": "will bother",
+      "meaning": "molestar"
+    },
+    {
+      "verb": "communicate",
+      "past_simple": "communicated",
+      "past_participle": "communicated",
+      "type": "regular",
+      "future": "will communicate",
+      "meaning": "comunicar"
+    },
+    {
+      "verb": "complain",
+      "past_simple": "complained",
+      "past_participle": "complained",
+      "type": "regular",
+      "future": "will complain",
+      "meaning": "quejarse"
+    },
+    {
+      "verb": "concentrate",
+      "past_simple": "concentrated",
+      "past_participle": "concentrated",
+      "type": "regular",
+      "future": "will concentrate",
+      "meaning": "concentrarse"
+    },
+    {
+      "verb": "consume",
+      "past_simple": "consumed",
+      "past_participle": "consumed",
+      "type": "regular",
+      "future": "will consume",
+      "meaning": "consumir"
+    },
+    {
+      "verb": "contribute",
+      "past_simple": "contributed",
+      "past_participle": "contributed",
+      "type": "regular",
+      "future": "will contribute",
+      "meaning": "contribuir"
+    },
+    {
+      "verb": "create",
+      "past_simple": "created",
+      "past_participle": "created",
+      "type": "regular",
+      "future": "will create",
+      "meaning": "crear"
+    },
+    {
+      "verb": "deliver",
+      "past_simple": "delivered",
+      "past_participle": "delivered",
+      "type": "regular",
+      "future": "will deliver",
+      "meaning": "entregar"
+    },
+    {
+      "verb": "enter",
+      "past_simple": "entered",
+      "past_participle": "entered",
+      "type": "regular",
+      "future": "will enter",
+      "meaning": "entrar"
+    },
+    {
+      "verb": "escape",
+      "past_simple": "escaped",
+      "past_participle": "escaped",
+      "type": "regular",
+      "future": "will escape",
+      "meaning": "escapar"
+    },
+    {
+      "verb": "estimate",
+      "past_simple": "estimated",
+      "past_participle": "estimated",
+      "type": "regular",
+      "future": "will estimate",
+      "meaning": "estimar"
+    },
+    {
+      "verb": "exist",
+      "past_simple": "existed",
+      "past_participle": "existed",
+      "type": "regular",
+      "future": "will exist",
+      "meaning": "existir"
+    },
+    {
+      "verb": "explore",
+      "past_simple": "explored",
+      "past_participle": "explored",
+      "type": "regular",
+      "future": "will explore",
+      "meaning": "explorar"
+    },
+    {
+      "verb": "express",
+      "past_simple": "expressed",
+      "past_participle": "expressed",
+      "type": "regular",
+      "future": "will express",
+      "meaning": "expresar"
+    },
+    {
+      "verb": "face",
+      "past_simple": "faced",
+      "past_participle": "faced",
+      "type": "regular",
+      "future": "will face",
+      "meaning": "enfrentar"
+    },
+    {
+      "verb": "focus",
+      "past_simple": "focused",
+      "past_participle": "focused",
+      "type": "regular",
+      "future": "will focus",
+      "meaning": "enfocarse"
+    },
+    {
+      "verb": "force",
+      "past_simple": "forced",
+      "past_participle": "forced",
+      "type": "regular",
+      "future": "will force",
+      "meaning": "forzar"
+    },
+    {
+      "verb": "gain",
+      "past_simple": "gained",
+      "past_participle": "gained",
+      "type": "regular",
+      "future": "will gain",
+      "meaning": "ganar o obtener"
+    },
+    {
+      "verb": "hang",
+      "past_simple": "hung",
+      "past_participle": "hung",
+      "type": "irregular",
+      "future": "will hang",
+      "meaning": "colgar"
+    },
+    {
+      "verb": "hide",
+      "past_simple": "hid",
+      "past_participle": "hidden",
+      "type": "irregular",
+      "future": "will hide",
+      "meaning": "esconder"
+    },
+    {
+      "verb": "identify",
+      "past_simple": "identified",
+      "past_participle": "identified",
+      "type": "regular",
+      "future": "will identify",
+      "meaning": "identificar"
+    },
+    {
+      "verb": "illustrate",
+      "past_simple": "illustrated",
+      "past_participle": "illustrated",
+      "type": "regular",
+      "future": "will customize",
+      "meaning": "ilustrar"
+    },
+    {
+      "verb": "influence",
+      "past_simple": "influenced",
+      "past_participle": "influenced",
+      "type": "regular",
+      "future": "will influence",
+      "meaning": "influenciar"
+    },
+    {
+      "verb": "inform",
+      "past_simple": "informed",
+      "past_participle": "informed",
+      "type": "regular",
+      "future": "will inform",
+      "meaning": "informar"
+    },
+    {
+      "verb": "introduce",
+      "past_simple": "introduced",
+      "past_participle": "introduced",
+      "type": "regular",
+      "future": "will introduce",
+      "meaning": "introducir o presentar"
+    },
+    {
+      "verb": "jump",
+      "past_simple": "jumped",
+      "past_participle": "jumped",
+      "type": "regular",
+      "future": "will jump",
+      "meaning": "saltar"
+    },
+    {
+      "verb": "kick",
+      "past_simple": "kicked",
+      "past_participle": "kicked",
+      "type": "regular",
+      "future": "will kick",
+      "meaning": "patear"
+    },
+    {
+      "verb": "knock",
+      "past_simple": "knocked",
+      "past_participle": "knocked",
+      "type": "regular",
+      "future": "will knock",
+      "meaning": "golpear (puerta)"
+    },
+    {
+      "verb": "limit",
+      "past_simple": "limited",
+      "past_participle": "limited",
+      "type": "regular",
+      "future": "will limit",
+      "meaning": "limitar"
+    },
+    {
+      "verb": "maintain",
+      "past_simple": "maintained",
+      "past_participle": "maintained",
+      "type": "regular",
+      "future": "will maintain",
+      "meaning": "mantener"
+    },
+    {
+      "verb": "note",
+      "past_simple": "noted",
+      "past_participle": "noted",
+      "type": "regular",
+      "future": "will note",
+      "meaning": "notar o apuntar"
+    },
+    {
+      "verb": "observe",
+      "past_simple": "observed",
+      "past_participle": "observed",
+      "type": "regular",
+      "future": "will observe",
+      "meaning": "observar"
+    },
+    {
+      "verb": "occupy",
+      "past_simple": "occupied",
+      "past_participle": "occupied",
+      "type": "regular",
+      "future": "will occupy",
+      "meaning": "ocupar"
+    },
+    {
+      "verb": "offer",
+      "past_simple": "offered",
+      "past_participle": "offered",
+      "type": "regular",
+      "future": "will offer",
+      "meaning": "ofrecer"
+    },
+    {
+      "verb": "operate",
+      "past_simple": "operated",
+      "past_participle": "operated",
+      "type": "regular",
+      "future": "will operate",
+      "meaning": "operar"
+    },
+    {
+      "verb": "order",
+      "past_simple": "ordered",
+      "past_participle": "ordered",
+      "type": "regular",
+      "future": "will order",
+      "meaning": "ordenar o pedir"
+    },
+    {
+      "verb": "pack",
+      "past_simple": "packed",
+      "past_participle": "packed",
+      "type": "regular",
+      "future": "will pack",
+      "meaning": "empacar"
+    },
+    {
+      "verb": "paint",
+      "past_simple": "painted",
+      "past_participle": "painted",
+      "type": "regular",
+      "future": "will paint",
+      "meaning": "pintar"
+    },
+    {
+      "verb": "park",
+      "past_simple": "parked",
+      "past_participle": "parked",
+      "type": "regular",
+      "future": "will park",
+      "meaning": "estacionar"
+    },
+    {
+      "verb": "press",
+      "past_simple": "pressed",
+      "past_participle": "pressed",
+      "type": "regular",
+      "future": "will press",
+      "meaning": "presionar"
+    },
+    {
+      "verb": "produce",
+      "past_simple": "produced",
+      "past_participle": "produced",
+      "type": "regular",
+      "future": "will produce",
+      "meaning": "producir"
+    },
+    {
+      "verb": "publish",
+      "past_simple": "published",
+      "past_participle": "published",
+      "type": "regular",
+      "future": "will publish",
+      "meaning": "publicar"
+    },
+    {
+      "verb": "pull",
+      "past_simple": "pulled",
+      "past_participle": "pulled",
+      "type": "regular",
+      "future": "will pull",
+      "meaning": "jalar o tirar"
+    },
+    {
+      "verb": "push",
+      "past_simple": "pushed",
+      "past_participle": "pushed",
+      "type": "regular",
+      "future": "will push",
+      "meaning": "empujar"
+    },
+    {
+      "verb": "raise",
+      "past_simple": "raised",
+      "past_participle": "raised",
+      "type": "regular",
+      "future": "will raise",
+      "meaning": "levantar o criar"
+    },
+    {
+      "verb": "reach",
+      "past_simple": "reached",
+      "past_participle": "reached",
+      "type": "regular",
+      "future": "will reach",
+      "meaning": "alcanzar"
+    },
+    {
+      "verb": "recover",
+      "past_simple": "recovered",
+      "past_participle": "recovered",
+      "type": "regular",
+      "future": "will recover",
+      "meaning": "recuperar"
+    },
+    {
+      "verb": "record",
+      "past_simple": "recorded",
+      "past_participle": "recorded",
+      "type": "regular",
+      "future": "will record",
+      "meaning": "grabar o registrar"
+    },
+    {
+      "verb": "refer",
+      "past_simple": "referred",
+      "past_participle": "referred",
+      "type": "regular",
+      "future": "will refer",
+      "meaning": "referir"
+    },
+    {
+      "verb": "rescue",
+      "past_simple": "rescued",
+      "past_participle": "rescued",
+      "type": "regular",
+      "future": "will rescue",
+      "meaning": "rescatar"
+    },
+    {
+      "verb": "settle",
+      "past_simple": "settled",
+      "past_participle": "settled",
+      "type": "regular",
+      "future": "will settle",
+      "meaning": "establecerse o resolver"
+    },
+    {
+      "verb": "shake",
+      "past_simple": "shook",
+      "past_participle": "shaken",
+      "type": "irregular",
+      "future": "will shake",
+      "meaning": "sacudir o agitar"
+    },
+    {
+      "verb": "shop",
+      "past_simple": "shopped",
+      "past_participle": "shopped",
+      "type": "regular",
+      "future": "will shop",
+      "meaning": "comprar (ir de compras)"
+    },
+    {
+      "verb": "signal",
+      "past_simple": "signalled",
+      "past_participle": "signalled",
+      "type": "regular",
+      "future": "will signal",
+      "meaning": "señalizar"
+    },
+    {
+      "verb": "solve",
+      "past_simple": "solved",
+      "past_participle": "solved",
+      "type": "regular",
+      "future": "will solve",
+      "meaning": "resolver"
+    },
+    {
+      "verb": "spend",
+      "past_simple": "spent",
+      "past_participle": "spent",
+      "type": "irregular",
+      "future": "will spend",
+      "meaning": "gastar (dinero) o pasar (tiempo)"
+    },
+    {
+      "verb": "stretch",
+      "past_simple": "stretched",
+      "past_participle": "stretched",
+      "type": "regular",
+      "future": "will stretch",
+      "meaning": "estirar"
+    },
+    {
+      "verb": "surprise",
+      "past_simple": "surprised",
+      "past_participle": "surprised",
+      "type": "regular",
+      "future": "will surprise",
+      "meaning": "sorprender"
+    },
+    {
+      "verb": "test",
+      "past_simple": "tested",
+      "past_participle": "tested",
+      "type": "regular",
+      "future": "will test",
+      "meaning": "probar o evaluar"
+    },
+    {
+      "verb": "translate",
+      "past_simple": "translated",
+      "past_participle": "translated",
+      "type": "regular",
+      "future": "will translate",
+      "meaning": "traducir"
+    },
+    {
+      "verb": "treat",
+      "past_simple": "treated",
+      "past_participle": "treated",
+      "type": "regular",
+      "future": "will treat",
+      "meaning": "tratar"
+    },
+    {
+      "verb": "uncover",
+      "past_simple": "uncovered",
+      "past_participle": "uncovered",
+      "type": "regular",
+      "future": "will uncover",
+      "meaning": "descubrir"
+    },
+    {
+      "verb": "update",
+      "past_simple": "updated",
+      "past_participle": "updated",
+      "type": "regular",
+      "future": "will update",
+      "meaning": "actualizar"
+    },
+    {
+      "verb": "value",
+      "past_simple": "valued",
+      "past_participle": "valued",
+      "type": "regular",
+      "future": "will value",
+      "meaning": "valorar"
+    },
+    {
+      "verb": "vote",
+      "past_simple": "voted",
+      "past_participle": "voted",
+      "type": "regular",
+      "future": "will vote",
+      "meaning": "votar"
+    },
+    {
+      "verb": "welcome",
+      "past_simple": "welcomed",
+      "past_participle": "welcomed",
+      "type": "regular",
+      "future": "will welcome",
+      "meaning": "dar la bienvenida"
+    },
+    {
+      "verb": "wrap",
+      "past_simple": "wrapped",
+      "past_participle": "wrapped",
+      "type": "regular",
+      "future": "will wrap",
+      "meaning": "envolver"
+    },
+    {
+      "verb": "yell",
+      "past_simple": "yelled",
+      "past_participle": "yelled",
+      "type": "regular",
+      "future": "will yell",
+      "meaning": "gritar"
+    },
+    {
+      "verb": "zoom",
+      "past_simple": "zoomed",
+      "past_participle": "zoomed",
+      "type": "regular",
+      "future": "will zoom",
+      "meaning": "acercar (zoom)"
+    }
+  ]
+}
