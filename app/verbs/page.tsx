@@ -440,8 +440,8 @@ export default function VerbsPage() {
                       <div className="flex justify-end">
                         <Combobox
                           value={status}
-                          onValueChange={(value: string) => {
-                            if (isStatus(value)) {
+                          onValueChange={(value: string | null) => {
+                            if (value && isStatus(value)) {
                               handleStatusChange(verb, value);
                             }
                           }}>
