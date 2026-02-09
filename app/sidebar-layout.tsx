@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Sidebar, SidebarBody, SidebarLink } from "@/components/ui/sidebar";
-import { IconBrandTabler, IconUserBolt } from "@tabler/icons-react";
+import { IconBrandTabler, IconCards, IconUserBolt } from "@tabler/icons-react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import ThemeToggle from "@/components/theme-toggle";
@@ -20,6 +20,13 @@ const links = [
     href: "/verbs",
     icon: (
       <IconUserBolt className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
+    ),
+  },
+  {
+    label: "Verbs Flash Cards",
+    href: "/verbs-flash-card",
+    icon: (
+      <IconCards className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
     ),
   },
 ];

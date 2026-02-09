@@ -7,16 +7,20 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
+import { Switch } from "@/components/animate-ui/components/radix/switch";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/animate-ui/components/radix/dialog";
 import {
   Combobox,
-  ComboboxChips,
-  ComboboxChip,
-  ComboboxChipsInput,
   ComboboxContent,
   ComboboxList,
   ComboboxItem,
-  ComboboxEmpty,
-  ComboboxSeparator,
   ComboboxTrigger,
 } from "@/components/ui/combobox";
 import {
@@ -34,7 +38,7 @@ import {
   Sparkles,
   Flame,
   Leaf,
-  ListFilter,
+  Settings,
 } from "lucide-react";
 
 type VerbType = "regular" | "irregular";
@@ -121,12 +125,21 @@ const isStatus = (value: string): value is Status =>
 
 export default function VerbsPage() {
   const [query, setQuery] = React.useState("");
-  const [typeFilter, setTypeFilter] = React.useState<VerbType[]>([]);
-  const [statusFilter, setStatusFilter] = React.useState<Status[]>([]);
+  const [typeFilter, setTypeFilter] = React.useState<VerbType[]>([
+    "regular",
+    "irregular",
+  ]);
+  const [statusFilter, setStatusFilter] = React.useState<Status[]>([
+    "desconocido",
+    "aprendiendo",
+    "aprendido",
+  ]);
   const [statusByVerb, setStatusByVerb] = React.useState<
     Record<string, Status>
   >({});
   const [isReady, setIsReady] = React.useState(false);
+  const [visibleCount, setVisibleCount] = React.useState(60);
+  const sentinelRef = React.useRef<HTMLDivElement | null>(null);
 
   React.useEffect(() => {
     try {
@@ -151,9 +164,6 @@ export default function VerbsPage() {
 
   const verbs = (verbsData.verbs as Verb[]) ?? [];
 
-  const ALL_TYPES_VALUE = "all-types";
-  const ALL_STATUS_VALUE = "all-status";
-
   const getStatus = React.useCallback(
     (verb: Verb) => statusByVerb[verb.verb] ?? "desconocido",
     [statusByVerb],
@@ -175,8 +185,39 @@ export default function VerbsPage() {
     });
   }, [verbs, typeFilter, statusFilter, query, getStatus]);
 
+  React.useEffect(() => {
+    setVisibleCount(60);
+  }, [query, typeFilter, statusFilter]);
+
   const totalCount = verbs.length;
   const filteredCount = filteredVerbs.length;
+  const visibleVerbs = React.useMemo(
+    () => filteredVerbs.slice(0, visibleCount),
+    [filteredVerbs, visibleCount],
+  );
+  const hasMore = visibleCount < filteredCount;
+
+  React.useEffect(() => {
+    if (!hasMore) return;
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setVisibleCount((prev) => prev + 60);
+        }
+      },
+      {
+        root: null,
+        rootMargin: "200px",
+        threshold: 0,
+      },
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [hasMore]);
 
   const handleStatusChange = (verb: Verb, status: Status) => {
     setStatusByVerb((prev) => ({
@@ -191,35 +232,113 @@ export default function VerbsPage() {
 
   const clearFilters = () => {
     setQuery("");
-    setTypeFilter([]);
-    setStatusFilter([]);
+    setTypeFilter(["regular", "irregular"]);
+    setStatusFilter(["desconocido", "aprendiendo", "aprendido"]);
   };
 
-  const typeOptions: Array<{ value: VerbType; label: string }> = [
-    { value: "irregular", label: "Irregular" },
-    { value: "regular", label: "Regular" },
-  ];
+  const toggleStatus = (status: Status) => {
+    setStatusFilter((prev) =>
+      prev.includes(status)
+        ? prev.filter((item) => item !== status)
+        : [...prev, status],
+    );
+  };
 
-  const statusOptions: Array<{ value: Status; label: string }> = [
-    { value: "aprendido", label: "Aprendido" },
-    { value: "aprendiendo", label: "Aprendiendo" },
-    { value: "desconocido", label: "Desconocido" },
-  ];
+  const toggleType = (type: VerbType) => {
+    setTypeFilter((prev) =>
+      prev.includes(type)
+        ? prev.filter((item) => item !== type)
+        : [...prev, type],
+    );
+  };
+
+  const statusOptions = Object.keys(STATUS_META) as Status[];
 
   return (
     <div className="flex h-full w-full flex-col gap-6">
-      <header className="space-y-2">
-        <h1 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
-          List of Verbs
-        </h1>
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          Filtra por tipo, progreso y busca por cualquier forma verbal.
-        </p>
+      <header className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+        <div className="space-y-2">
+          <h1 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
+            List of Verbs
+          </h1>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+            Filtra por tipo, progreso y busca por cualquier forma verbal.
+          </p>
+        </div>
+        <Dialog>
+          <DialogTrigger asChild>
+            <Button
+              variant="outline"
+              className="gap-2 self-start">
+              <Settings className="size-4" />
+              Filtros
+            </Button>
+          </DialogTrigger>
+          <DialogContent className="sm:max-w-md">
+            <DialogHeader>
+              <DialogTitle>Filtros</DialogTitle>
+              <DialogDescription>
+                Personaliza qué verbos quieres ver.
+              </DialogDescription>
+            </DialogHeader>
+            <div className="space-y-5">
+              <div className="space-y-3">
+                <p className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">
+                  Estado de aprendizaje
+                </p>
+                <div className="space-y-3">
+                  {(Object.keys(STATUS_META) as Status[]).map((status) => (
+                    <FilterRow
+                      key={status}
+                      label={STATUS_META[status].label}
+                      icon={STATUS_META[status].icon}
+                      iconClass={STATUS_META[status].iconClass}
+                      checked={statusFilter.includes(status)}
+                      onCheckedChange={() => toggleStatus(status)}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              <div className="space-y-3">
+                <p className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">
+                  Tipo de verbo
+                </p>
+                <div className="space-y-3">
+                  {(Object.keys(TYPE_META) as VerbType[]).map((type) => (
+                    <FilterRow
+                      key={type}
+                      label={TYPE_META[type].label}
+                      icon={TYPE_META[type].icon}
+                      iconClass={TYPE_META[type].iconClass}
+                      checked={typeFilter.includes(type)}
+                      onCheckedChange={() => toggleType(type)}
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:justify-end">
+              <Button
+                size="sm"
+                variant="outline"
+                onClick={clearFilters}>
+                Limpiar filtros
+              </Button>
+              <Button
+                size="sm"
+                variant="destructive"
+                onClick={clearProgress}>
+                Resetear progreso
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
       </header>
 
       <section className="rounded-xl border border-neutral-200 bg-neutral-50 p-6 dark:border-neutral-800 dark:bg-neutral-900">
         <div className="flex flex-col gap-4">
-          <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
+          <div className="flex flex-col gap-3">
             <div className="flex flex-1 flex-col gap-2">
               <label
                 htmlFor="verbs-search"
@@ -232,153 +351,6 @@ export default function VerbsPage() {
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
               />
-            </div>
-
-            <div className="flex w-full flex-wrap gap-3 lg:w-auto">
-              <div className="flex w-full flex-col gap-2 sm:min-w-55 sm:w-auto">
-                <span className="text-xs font-medium uppercase tracking-wide text-neutral-500">
-                  Tipo
-                </span>
-                <Combobox
-                  multiple
-                  value={typeFilter}
-                  onValueChange={(value: string[]) => {
-                    if (value.includes(ALL_TYPES_VALUE)) {
-                      setTypeFilter([]);
-                      return;
-                    }
-                    setTypeFilter(
-                      value.filter(
-                        (item): item is VerbType => item !== ALL_TYPES_VALUE,
-                      ),
-                    );
-                  }}>
-                  <ComboboxChips className="min-h-9">
-                    {typeFilter.map((value) => {
-                      const meta = TYPE_META[value];
-                      const Icon = meta.icon;
-                      return (
-                        <ComboboxChip
-                          key={value}
-                          className={cn("border", meta.chipClass)}>
-                          <Icon className={cn("h-3.5 w-3.5", meta.iconClass)} />
-                          {meta.label}
-                        </ComboboxChip>
-                      );
-                    })}
-                    <ComboboxChipsInput
-                      placeholder={typeFilter.length > 0 ? "" : "Todos"}
-                      aria-label="Filtrar por tipo"
-                    />
-                  </ComboboxChips>
-                  <ComboboxContent>
-                    <ComboboxList>
-                      <ComboboxItem value={ALL_TYPES_VALUE}>
-                        <ListFilter className="h-4 w-4 text-neutral-500 dark:text-neutral-400" />
-                        <span>Todos</span>
-                      </ComboboxItem>
-                      <ComboboxSeparator />
-                      {typeOptions.map((option) => {
-                        const meta = TYPE_META[option.value];
-                        const Icon = meta.icon;
-                        return (
-                          <ComboboxItem
-                            key={option.value}
-                            value={option.value}>
-                            <Icon className={cn("h-4 w-4", meta.iconClass)} />
-                            <span>{option.label}</span>
-                          </ComboboxItem>
-                        );
-                      })}
-                    </ComboboxList>
-                  </ComboboxContent>
-                </Combobox>
-              </div>
-
-              <div className="flex w-full flex-col gap-2 sm:min-w-65 sm:w-auto">
-                <span className="text-xs font-medium uppercase tracking-wide text-neutral-500">
-                  Progreso
-                </span>
-                <Combobox
-                  multiple
-                  value={statusFilter}
-                  onValueChange={(value: string[]) => {
-                    if (value.includes(ALL_STATUS_VALUE)) {
-                      setStatusFilter([]);
-                      return;
-                    }
-                    setStatusFilter(
-                      value.filter(
-                        (item): item is Status => item !== ALL_STATUS_VALUE,
-                      ),
-                    );
-                  }}>
-                  <ComboboxChips className="min-h-9">
-                    {statusFilter.map((value) => {
-                      const meta = STATUS_META[value];
-                      const Icon = meta.icon;
-                      return (
-                        <ComboboxChip
-                          key={value}
-                          className={cn("border", meta.badgeClass)}>
-                          <Icon className={cn("h-3.5 w-3.5", meta.iconClass)} />
-                          {meta.label}
-                        </ComboboxChip>
-                      );
-                    })}
-                    <ComboboxChipsInput
-                      placeholder={statusFilter.length > 0 ? "" : "Todos"}
-                      aria-label="Filtrar por progreso"
-                    />
-                  </ComboboxChips>
-                  <ComboboxContent>
-                    <ComboboxList>
-                      <ComboboxItem value={ALL_STATUS_VALUE}>
-                        <ListFilter className="h-4 w-4 text-neutral-500 dark:text-neutral-400" />
-                        <span>Todos</span>
-                      </ComboboxItem>
-                      <ComboboxSeparator />
-                      {statusOptions.map((option) => {
-                        const meta = STATUS_META[option.value];
-                        const Icon = meta.icon;
-                        return (
-                          <ComboboxItem
-                            key={option.value}
-                            value={option.value}>
-                            <Icon className={cn("h-4 w-4", meta.iconClass)} />
-                            <span>{option.label}</span>
-                          </ComboboxItem>
-                        );
-                      })}
-                    </ComboboxList>
-                  </ComboboxContent>
-                </Combobox>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col flex-wrap items-start justify-between gap-3 sm:flex-row sm:items-center">
-            <div className="flex flex-wrap items-center gap-3 text-sm text-neutral-600 dark:text-neutral-300">
-              <span>
-                Mostrando {filteredCount} de {totalCount} verbos
-              </span>
-              <Badge variant="outline">Estado guardado localmente</Badge>
-            </div>
-            <div className="flex w-full flex-wrap gap-2 sm:w-auto">
-              <Button
-                size="sm"
-                variant="outline"
-                className="w-full sm:w-auto"
-                onClick={clearFilters}>
-                Limpiar filtros
-              </Button>
-              <Button
-                size="sm"
-                variant="destructive"
-                className="w-full sm:w-auto"
-                onClick={clearProgress}>
-                Resetear progreso
-              </Button>
             </div>
           </div>
         </div>
@@ -403,7 +375,7 @@ export default function VerbsPage() {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {filteredVerbs.map((verb, index) => {
+              {visibleVerbs.map((verb, index) => {
                 const status = getStatus(verb);
                 const statusMeta = STATUS_META[status];
                 const StatusIcon = statusMeta.icon;
@@ -456,12 +428,12 @@ export default function VerbsPage() {
                           <ComboboxContent>
                             <ComboboxList>
                               {statusOptions.map((option) => {
-                                const meta = STATUS_META[option.value];
+                                const meta = STATUS_META[option];
                                 const OptionIcon = meta.icon;
                                 return (
                                   <ComboboxItem
-                                    key={option.value}
-                                    value={option.value}>
+                                    key={option}
+                                    value={option}>
                                     <OptionIcon
                                       className={cn("h-4 w-4", meta.iconClass)}
                                     />
@@ -480,7 +452,42 @@ export default function VerbsPage() {
             </TableBody>
           </Table>
         </div>
+        {hasMore && (
+          <div className="mt-4 flex justify-center">
+            <div
+              ref={sentinelRef}
+              className="h-8 w-full"
+              aria-hidden="true"
+            />
+          </div>
+        )}
       </section>
+    </div>
+  );
+}
+
+type FilterRowProps = Readonly<{
+  label: string;
+  icon: React.ComponentType<{ className?: string }>;
+  iconClass?: string;
+  checked: boolean;
+  onCheckedChange: () => void;
+}>;
+
+function FilterRow(props: FilterRowProps) {
+  const { label, icon: Icon, iconClass, checked, onCheckedChange } = props;
+  return (
+    <div className="flex items-center justify-between gap-4 rounded-xl border border-neutral-200/80 bg-white/70 px-4 py-3 dark:border-neutral-800/80 dark:bg-neutral-900/70">
+      <div className="flex items-center gap-2">
+        <Icon className={cn("size-4", iconClass)} />
+        <p className="text-sm font-medium text-neutral-900 dark:text-neutral-100">
+          {label}
+        </p>
+      </div>
+      <Switch
+        checked={checked}
+        onCheckedChange={onCheckedChange}
+      />
     </div>
   );
 }

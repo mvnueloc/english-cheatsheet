@@ -3,6 +3,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { Box, Lock } from "lucide-react";
+import { IconCards } from "@tabler/icons-react";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 
 export function HomeGlowingGrid() {
@@ -18,9 +19,12 @@ export function HomeGlowingGrid() {
 
       <GridItem
         area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
-        icon={<Lock className="h-4 w-4 text-black dark:text-neutral-400" />}
-        title="Coming soon"
-        description="Locked content."
+        icon={
+          <IconCards className="h-4 w-4 text-black dark:text-neutral-400" />
+        }
+        title="Verbs Flash Cards"
+        description="Practice verbs with interactive flash cards and filters."
+        href="/verbs-flash-card"
       />
 
       <GridItem

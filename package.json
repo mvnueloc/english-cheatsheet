@@ -13,6 +13,8 @@
     "@tabler/icons-react": "^3.36.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "lucide-react": "^0.563.0",
     "motion": "^12.33.0",
     "next": "16.1.6",
@@ -21,7 +23,8 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "tailwind-merge": "^3.4.0",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
