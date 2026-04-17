@@ -76,10 +76,10 @@ export const Sidebar = ({
 
 export const SidebarBody = (props: React.ComponentProps<typeof motion.div>) => {
   return (
-    <div>
+    <>
       <DesktopSidebar {...props} />
       <MobileSidebar {...(props as React.ComponentProps<"div">)} />
-    </div>
+    </>
   );
 };
 
@@ -117,17 +117,24 @@ export const MobileSidebar = ({
   return (
     <div
       className={cn(
-        "h-10 px-4 py-4 flex flex-row md:hidden  items-center justify-between bg-neutral-100 dark:bg-neutral-800 w-full",
+        "h-14 px-4 py-4 flex flex-row md:hidden items-center justify-between bg-neutral-100 dark:bg-neutral-800 w-full shrink-0",
       )}
       {...props}>
-      <div className="flex justify-end z-20 w-full">
+      <div className="flex justify-between items-center z-20 w-full">
         <button
           type="button"
-          className="inline-flex items-center justify-center"
+          className="inline-flex items-center justify-center p-2 rounded-md hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
           onClick={() => setOpen((prev) => !prev)}
           aria-label="Abrir menú">
-          <IconMenu2 className="text-neutral-800 dark:text-neutral-200" />
+          <IconMenu2 className="text-neutral-800 dark:text-neutral-200 h-6 w-6" />
         </button>
+        <img
+          src="https://avatars.githubusercontent.com/u/128934926?v=4"
+          className="h-8 w-8 shrink-0 rounded-full border border-neutral-200 dark:border-neutral-700"
+          width={32}
+          height={32}
+          alt="Avatar"
+        />
       </div>
       <AnimatePresence>
         {open && (

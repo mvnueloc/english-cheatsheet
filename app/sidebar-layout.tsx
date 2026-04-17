@@ -61,7 +61,7 @@ export default function SidebarLayout({
   return (
     <div
       className={cn(
-        "flex h-screen w-screen overflow-hidden bg-gray-100 dark:bg-neutral-900",
+        "flex flex-col md:flex-row h-screen w-screen overflow-hidden bg-gray-100 dark:bg-neutral-900",
       )}>
       <Sidebar
         open={open}
