@@ -2,7 +2,13 @@
 
 import React, { useState } from "react";
 import { Sidebar, SidebarBody, SidebarLink } from "@/components/ui/sidebar";
-import { IconBrandTabler, IconCards, IconUserBolt } from "@tabler/icons-react";
+import {
+  IconHome,
+  IconList,
+  IconCards,
+  IconLayoutCards,
+  IconRobot,
+} from "@tabler/icons-react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import ThemeToggle from "@/components/theme-toggle";
@@ -12,14 +18,14 @@ const links = [
     label: "Inicio",
     href: "/",
     icon: (
-      <IconBrandTabler className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
+      <IconHome className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
     ),
   },
   {
     label: "List of Verbs",
     href: "/verbs",
     icon: (
-      <IconUserBolt className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
+      <IconList className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
     ),
   },
   {
@@ -27,6 +33,20 @@ const links = [
     href: "/verbs-flash-card",
     icon: (
       <IconCards className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
+    ),
+  },
+  {
+    label: "Phrasal Verbs Flash Cards",
+    href: "/phrasal-verbs",
+    icon: (
+      <IconCards className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
+    ),
+  },
+  {
+    label: "Chat AI",
+    href: "/chat-ai",
+    icon: (
+      <IconRobot className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
     ),
   },
 ];

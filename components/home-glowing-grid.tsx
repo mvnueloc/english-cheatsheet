@@ -3,7 +3,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { Box, Lock } from "lucide-react";
-import { IconCards } from "@tabler/icons-react";
+import { IconCards, IconRobot } from "@tabler/icons-react";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 
 export function HomeGlowingGrid() {
@@ -11,34 +11,44 @@ export function HomeGlowingGrid() {
     <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2">
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
-        icon={<Box className="h-4 w-4 text-black dark:text-neutral-400" />}
+        icon={<Box className="h-4 w-4 text-neutral-700 dark:text-blue-400" />}
         title="List of Verbs"
         description="List of common English verbs with their conjugations and examples."
         href="/verbs"
+        gradientClassName="bg-gradient-to-br from-blue-500/10 via-transparent to-transparent dark:from-blue-500/15"
       />
 
       <GridItem
         area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
         icon={
-          <IconCards className="h-4 w-4 text-black dark:text-neutral-400" />
+          <IconCards className="h-4 w-4 text-neutral-700 dark:text-purple-400" />
         }
         title="Verbs Flash Cards"
         description="Practice verbs with interactive flash cards and filters."
         href="/verbs-flash-card"
+        gradientClassName="bg-gradient-to-br from-purple-500/10 via-transparent to-transparent dark:from-purple-500/15"
       />
 
       <GridItem
         area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
-        icon={<Lock className="h-4 w-4 text-black dark:text-neutral-400" />}
-        title="Coming soon"
-        description="Locked content."
+        icon={
+          <IconCards className="h-4 w-4 text-neutral-700 dark:text-emerald-400" />
+        }
+        title="Phrasal Verbs Flash Cards"
+        description="Practice phrasal verbs with interactive flash cards and filters."
+        href="/phrasal-verbs"
+        gradientClassName="bg-gradient-to-br from-emerald-500/10 via-transparent to-transparent dark:from-emerald-500/15"
       />
 
       <GridItem
         area="md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]"
-        icon={<Lock className="h-4 w-4 text-black dark:text-neutral-400" />}
-        title="Coming soon"
-        description="Locked content."
+        icon={
+          <IconRobot className="h-4 w-4 text-neutral-700 dark:text-cyan-400" />
+        }
+        title="Chat AI"
+        description="Chat with an AI to practice your English and learn interactively."
+        href="/chat-ai"
+        gradientClassName="bg-gradient-to-br from-cyan-500/10 via-transparent to-transparent dark:from-cyan-500/15"
       />
 
       <GridItem
@@ -57,9 +67,17 @@ interface GridItemProps {
   title: string;
   description: React.ReactNode;
   href?: string;
+  gradientClassName?: string;
 }
 
-const GridItem = ({ area, icon, title, description, href }: GridItemProps) => {
+const GridItem = ({
+  area,
+  icon,
+  title,
+  description,
+  href,
+  gradientClassName,
+}: GridItemProps) => {
   const content = (
     <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3">
       <GlowingEffect
@@ -71,7 +89,8 @@ const GridItem = ({ area, icon, title, description, href }: GridItemProps) => {
         proximity={64}
         inactiveZone={0.01}
       />
-      <div className="border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl p-6 md:p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
+      <div
+        className={`border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl p-6 md:p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D] ${gradientClassName || ""}`}>
         <div className="relative flex flex-1 flex-col justify-between gap-3">
           <div className="w-fit rounded-lg border border-gray-600 p-2">
             {icon}

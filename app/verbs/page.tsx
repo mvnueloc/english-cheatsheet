@@ -3,6 +3,7 @@
 import * as React from "react";
 
 import verbsData from "@/data/verbs.json";
+import phrasalVerbsData from "@/data/phrasal-verbs.json";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -162,7 +163,11 @@ export default function VerbsPage() {
     }
   }, [statusByVerb, isReady]);
 
-  const verbs = (verbsData.verbs as Verb[]) ?? [];
+  const verbs = React.useMemo(() => {
+    const regularVerbs = (verbsData.verbs as Verb[]) ?? [];
+    const phrasalVerbs = (phrasalVerbsData.verbs as Verb[]) ?? [];
+    return [...regularVerbs, ...phrasalVerbs];
+  }, []);
 
   const getStatus = React.useCallback(
     (verb: Verb) => statusByVerb[verb.verb] ?? "desconocido",

@@ -1,0 +1,14 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "npm install": true,
+        "npx -y shadcn@canary": true,
+        "/^cat << 'EOF' > patch\\.js\nconst fs = require\\('fs'\\);\nlet code = fs\\.readFileSync\\('app/chat-ai/page\\.tsx', 'utf-8'\\);\n\ncode = code\\.replace\\(\n  `import \\{ useRef, useEffect \\} from 'react';`,\n  `import \\{ useRef, useEffect, useState \\} from 'react';`\n\\);\n\ncode = code\\.replace\\(\n  `const \\{ messages, input, handleInputChange, handleSubmit, append, isLoading \\} = useChat\\(\\);`,\n  `const \\{ messages, sendMessage, isLoading \\} = useChat\\(\\);\\\\n  const \\[input, setInput\\] = useState\\(''\\);`\n\\);\n\ncode = code\\.replace\\(\n  `onChange=\\{handleInputChange\\}`,\n  `onChange=\\{\\(e\\) => setInput\\(e\\.target\\.value\\)\\}`\n\\);\n\ncode = code\\.replace\\(\n  `onSubmit=\\{handleSubmit\\}`,\n  `onSubmit=\\{\\(e\\) => \\{\\\\n          e\\.preventDefault\\(\\);\\\\n          if \\(!input\\.trim\\(\\) \\|\\| isLoading\\) return;\\\\n          sendMessage\\(\\{ text: input \\}\\);\\\\n          setInput\\(''\\);\\\\n        \\}\\}`\n\\);\n\ncode = code\\.replace\\(\n  `append\\(\\{ role: 'user', content: suggestion \\}\\);`,\n  `sendMessage\\(\\{ text: suggestion \\}\\);`\n\\);\n\ncode = code\\.replace\\(\n  `m\\.content`,\n  `m\\.text`\n\\);\n\nfs\\.writeFileSync\\('app/chat-ai/page\\.tsx', code\\);\nEOF\nnode patch\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cat << 'EOF' > patch2\\.js\nconst fs = require\\('fs'\\);\nlet code = fs\\.readFileSync\\('app/api/chat/route\\.ts', 'utf-8'\\);\n\ncode = code\\.replace\\(\n  `return result\\.toTextStreamResponse\\(\\);`,\n  `return result\\.toUIMessageStreamResponse\\(\\);`\n\\);\n\nfs\\.writeFileSync\\('app/api/chat/route\\.ts', code\\);\nEOF\nnode patch2\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

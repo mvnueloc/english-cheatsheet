@@ -1,0 +1,1924 @@
+{
+  "verbs": [
+    {
+      "verb": "give up",
+      "past_simple": "gave up",
+      "past_participle": "given up",
+      "type": "irregular",
+      "future": "will give up",
+      "meaning": "rendirse, abandonar"
+    },
+    {
+      "verb": "break down",
+      "past_simple": "broke down",
+      "past_participle": "broken down",
+      "type": "irregular",
+      "future": "will break down",
+      "meaning": "descomponerse, averiarse, derrumbarse"
+    },
+    {
+      "verb": "look for",
+      "past_simple": "looked for",
+      "past_participle": "looked for",
+      "type": "regular",
+      "future": "will look for",
+      "meaning": "buscar"
+    },
+    {
+      "verb": "pick up",
+      "past_simple": "picked up",
+      "past_participle": "picked up",
+      "type": "regular",
+      "future": "will pick up",
+      "meaning": "recoger, levantar, aprender"
+    },
+    {
+      "verb": "turn on",
+      "past_simple": "turned on",
+      "past_participle": "turned on",
+      "type": "regular",
+      "future": "will turn on",
+      "meaning": "encender"
+    },
+    {
+      "verb": "turn off",
+      "past_simple": "turned off",
+      "past_participle": "turned off",
+      "type": "regular",
+      "future": "will turn off",
+      "meaning": "apagar"
+    },
+    {
+      "verb": "put on",
+      "past_simple": "put on",
+      "past_participle": "put on",
+      "type": "irregular",
+      "future": "will put on",
+      "meaning": "ponerse (ropa), aumentar peso"
+    },
+    {
+      "verb": "take off",
+      "past_simple": "took off",
+      "past_participle": "taken off",
+      "type": "irregular",
+      "future": "will take off",
+      "meaning": "despegar, quitarse (ropa), ausentarse"
+    },
+    {
+      "verb": "cut off",
+      "past_simple": "cut off",
+      "past_participle": "cut off",
+      "type": "irregular",
+      "future": "will cut off",
+      "meaning": "cortar, interrumpir"
+    },
+    {
+      "verb": "go out",
+      "past_simple": "went out",
+      "past_participle": "gone out",
+      "type": "irregular",
+      "future": "will go out",
+      "meaning": "salir"
+    },
+    {
+      "verb": "come in",
+      "past_simple": "came in",
+      "past_participle": "come in",
+      "type": "irregular",
+      "future": "will come in",
+      "meaning": "entrar"
+    },
+    {
+      "verb": "go out with",
+      "past_simple": "went out with",
+      "past_participle": "gone out with",
+      "type": "irregular",
+      "future": "will go out with",
+      "meaning": "salir con alguien, tener una relación"
+    },
+    {
+      "verb": "break up",
+      "past_simple": "broke up",
+      "past_participle": "broken up",
+      "type": "irregular",
+      "future": "will break up",
+      "meaning": "romper una relación, terminar"
+    },
+    {
+      "verb": "catch up",
+      "past_simple": "caught up",
+      "past_participle": "caught up",
+      "type": "irregular",
+      "future": "will catch up",
+      "meaning": "alcanzar, ponerse al día"
+    },
+    {
+      "verb": "keep up",
+      "past_simple": "kept up",
+      "past_participle": "kept up",
+      "type": "irregular",
+      "future": "will keep up",
+      "meaning": "mantener el ritmo, mantener"
+    },
+    {
+      "verb": "set up",
+      "past_simple": "set up",
+      "past_participle": "set up",
+      "type": "irregular",
+      "future": "will set up",
+      "meaning": "establecer, instalar, montar"
+    },
+    {
+      "verb": "make up",
+      "past_simple": "made up",
+      "past_participle": "made up",
+      "type": "irregular",
+      "future": "will make up",
+      "meaning": "inventar, reconciliarse, maquillarse"
+    },
+    {
+      "verb": "clean up",
+      "past_simple": "cleaned up",
+      "past_participle": "cleaned up",
+      "type": "regular",
+      "future": "will clean up",
+      "meaning": "limpiar"
+    },
+    {
+      "verb": "dress up",
+      "past_simple": "dressed up",
+      "past_participle": "dressed up",
+      "type": "regular",
+      "future": "will dress up",
+      "meaning": "arreglarse, disfrazarse"
+    },
+    {
+      "verb": "mix up",
+      "past_simple": "mixed up",
+      "past_participle": "mixed up",
+      "type": "regular",
+      "future": "will mix up",
+      "meaning": "confundir, mezclar"
+    },
+    {
+      "verb": "get up",
+      "past_simple": "got up",
+      "past_participle": "gotten/got up",
+      "type": "irregular",
+      "future": "will get up",
+      "meaning": "levantarse"
+    },
+    {
+      "verb": "wake up",
+      "past_simple": "woke up",
+      "past_participle": "woken up",
+      "type": "irregular",
+      "future": "will wake up",
+      "meaning": "despertarse"
+    },
+    {
+      "verb": "sit down",
+      "past_simple": "sat down",
+      "past_participle": "sat down",
+      "type": "irregular",
+      "future": "will sit down",
+      "meaning": "sentarse"
+    },
+    {
+      "verb": "stand up",
+      "past_simple": "stood up",
+      "past_participle": "stood up",
+      "type": "irregular",
+      "future": "will stand up",
+      "meaning": "levantarse, ponerse de pie"
+    },
+    {
+      "verb": "hang up",
+      "past_simple": "hung up",
+      "past_participle": "hung up",
+      "type": "irregular",
+      "future": "will hang up",
+      "meaning": "colgar (teléfono), colgar"
+    },
+    {
+      "verb": "bring up",
+      "past_simple": "brought up",
+      "past_participle": "brought up",
+      "type": "irregular",
+      "future": "will bring up",
+      "meaning": "educar, criar, mencionar"
+    },
+    {
+      "verb": "grow up",
+      "past_simple": "grew up",
+      "past_participle": "grown up",
+      "type": "irregular",
+      "future": "will grow up",
+      "meaning": "crecer, madurar"
+    },
+    {
+      "verb": "check in",
+      "past_simple": "checked in",
+      "past_participle": "checked in",
+      "type": "regular",
+      "future": "will check in",
+      "meaning": "registrarse, facturar"
+    },
+    {
+      "verb": "check out",
+      "past_simple": "checked out",
+      "past_participle": "checked out",
+      "type": "regular",
+      "future": "will check out",
+      "meaning": "revisar, salir del hotel, comprobar"
+    },
+    {
+      "verb": "find out",
+      "past_simple": "found out",
+      "past_participle": "found out",
+      "type": "irregular",
+      "future": "will find out",
+      "meaning": "descubrir, enterarse"
+    },
+    {
+      "verb": "run out",
+      "past_simple": "ran out",
+      "past_participle": "run out",
+      "type": "irregular",
+      "future": "will run out",
+      "meaning": "agotarse, correr afuera"
+    },
+    {
+      "verb": "run out of",
+      "past_simple": "ran out of",
+      "past_participle": "run out of",
+      "type": "irregular",
+      "future": "will run out of",
+      "meaning": "quedarse sin algo"
+    },
+    {
+      "verb": "fill in",
+      "past_simple": "filled in",
+      "past_participle": "filled in",
+      "type": "regular",
+      "future": "will fill in",
+      "meaning": "rellenar, reemplazar"
+    },
+    {
+      "verb": "fill out",
+      "past_simple": "filled out",
+      "past_participle": "filled out",
+      "type": "regular",
+      "future": "will fill out",
+      "meaning": "rellenar, completar un formulario"
+    },
+    {
+      "verb": "work out",
+      "past_simple": "worked out",
+      "past_participle": "worked out",
+      "type": "regular",
+      "future": "will work out",
+      "meaning": "hacer ejercicio, resolver, resultar"
+    },
+    {
+      "verb": "figure out",
+      "past_simple": "figured out",
+      "past_participle": "figured out",
+      "type": "regular",
+      "future": "will figure out",
+      "meaning": "descubrir, resolver, entender"
+    },
+    {
+      "verb": "point out",
+      "past_simple": "pointed out",
+      "past_participle": "pointed out",
+      "type": "regular",
+      "future": "will point out",
+      "meaning": "señalar, indicar"
+    },
+    {
+      "verb": "show up",
+      "past_simple": "showed up",
+      "past_participle": "shown up",
+      "type": "irregular",
+      "future": "will show up",
+      "meaning": "presentarse, llegar"
+    },
+    {
+      "verb": "back up",
+      "past_simple": "backed up",
+      "past_participle": "backed up",
+      "type": "regular",
+      "future": "will back up",
+      "meaning": "respaldar, hacer copia de seguridad, retroceder"
+    },
+    {
+      "verb": "end up",
+      "past_simple": "ended up",
+      "past_participle": "ended up",
+      "type": "regular",
+      "future": "will end up",
+      "meaning": "terminar, acabar"
+    },
+    {
+      "verb": "start over",
+      "past_simple": "started over",
+      "past_participle": "started over",
+      "type": "regular",
+      "future": "will start over",
+      "meaning": "empezar de nuevo"
+    },
+    {
+      "verb": "take out",
+      "past_simple": "took out",
+      "past_participle": "taken out",
+      "type": "irregular",
+      "future": "will take out",
+      "meaning": "sacar, invitar a salir, eliminar"
+    },
+    {
+      "verb": "put away",
+      "past_simple": "put away",
+      "past_participle": "put away",
+      "type": "irregular",
+      "future": "will put away",
+      "meaning": "guardar, poner en su lugar"
+    },
+    {
+      "verb": "put up with",
+      "past_simple": "put up with",
+      "past_participle": "put up with",
+      "type": "irregular",
+      "future": "will put up with",
+      "meaning": "soportar, tolerar"
+    },
+    {
+      "verb": "get along",
+      "past_simple": "got along",
+      "past_participle": "gotten/got along",
+      "type": "irregular",
+      "future": "will get along",
+      "meaning": "llevarse bien, arreglárselas"
+    },
+    {
+      "verb": "get away",
+      "past_simple": "got away",
+      "past_participle": "gotten/got away",
+      "type": "irregular",
+      "future": "will get away",
+      "meaning": "escapar, fugarse"
+    },
+    {
+      "verb": "get back",
+      "past_simple": "got back",
+      "past_participle": "gotten/got back",
+      "type": "irregular",
+      "future": "will get back",
+      "meaning": "regresar, recuperar"
+    },
+    {
+      "verb": "get down",
+      "past_simple": "got down",
+      "past_participle": "gotten/got down",
+      "type": "irregular",
+      "future": "will get down",
+      "meaning": "bajar, ponerse a trabajar"
+    },
+    {
+      "verb": "get in",
+      "past_simple": "got in",
+      "past_participle": "gotten/got in",
+      "type": "irregular",
+      "future": "will get in",
+      "meaning": "entrar, subir a un vehículo"
+    },
+    {
+      "verb": "get off",
+      "past_simple": "got off",
+      "past_participle": "gotten/got off",
+      "type": "irregular",
+      "future": "will get off",
+      "meaning": "bajarse, terminar el trabajo"
+    },
+    {
+      "verb": "get on",
+      "past_simple": "got on",
+      "past_participle": "gotten/got on",
+      "type": "irregular",
+      "future": "will get on",
+      "meaning": "subirse, llevarse bien, continuar"
+    },
+    {
+      "verb": "get over",
+      "past_simple": "got over",
+      "past_participle": "gotten/got over",
+      "type": "irregular",
+      "future": "will get over",
+      "meaning": "superar, recuperarse"
+    },
+    {
+      "verb": "get through",
+      "past_simple": "got through",
+      "past_participle": "gotten/got through",
+      "type": "irregular",
+      "future": "will get through",
+      "meaning": "terminar, comunicarse"
+    },
+    {
+      "verb": "give back",
+      "past_simple": "gave back",
+      "past_participle": "given back",
+      "type": "irregular",
+      "future": "will give back",
+      "meaning": "devolver"
+    },
+    {
+      "verb": "give in",
+      "past_simple": "gave in",
+      "past_participle": "given in",
+      "type": "irregular",
+      "future": "will give in",
+      "meaning": "ceder, rendirse"
+    },
+    {
+      "verb": "give out",
+      "past_simple": "gave out",
+      "past_participle": "given out",
+      "type": "irregular",
+      "future": "will give out",
+      "meaning": "distribuir, agotarse"
+    },
+    {
+      "verb": "go ahead",
+      "past_simple": "went ahead",
+      "past_participle": "gone ahead",
+      "type": "irregular",
+      "future": "will go ahead",
+      "meaning": "proceder, adelantarse"
+    },
+    {
+      "verb": "go back",
+      "past_simple": "went back",
+      "past_participle": "gone back",
+      "type": "irregular",
+      "future": "will go back",
+      "meaning": "volver, regresar"
+    },
+    {
+      "verb": "go down",
+      "past_simple": "went down",
+      "past_participle": "gone down",
+      "type": "irregular",
+      "future": "will go down",
+      "meaning": "bajar, descender, hundirse"
+    },
+    {
+      "verb": "go for",
+      "past_simple": "went for",
+      "past_participle": "gone for",
+      "type": "irregular",
+      "future": "will go for",
+      "meaning": "optar por, costar, atacar"
+    },
+    {
+      "verb": "go in for",
+      "past_simple": "went in for",
+      "past_participle": "gone in for",
+      "type": "irregular",
+      "future": "will go in for",
+      "meaning": "dedicarse a, participar en"
+    },
+    {
+      "verb": "go off",
+      "past_simple": "went off",
+      "past_participle": "gone off",
+      "type": "irregular",
+      "future": "will go off",
+      "meaning": "estallar, sonar, marcharse"
+    },
+    {
+      "verb": "go on",
+      "past_simple": "went on",
+      "past_participle": "gone on",
+      "type": "irregular",
+      "future": "will go on",
+      "meaning": "continuar, seguir, suceder"
+    },
+    {
+      "verb": "go over",
+      "past_simple": "went over",
+      "past_participle": "gone over",
+      "type": "irregular",
+      "future": "will go over",
+      "meaning": "revisar, repasar, atravesar"
+    },
+    {
+      "verb": "go through",
+      "past_simple": "went through",
+      "past_participle": "gone through",
+      "type": "irregular",
+      "future": "will go through",
+      "meaning": "pasar por, sufrir, revisar"
+    },
+    {
+      "verb": "go up",
+      "past_simple": "went up",
+      "past_participle": "gone up",
+      "type": "irregular",
+      "future": "will go up",
+      "meaning": "subir, aumentar"
+    },
+    {
+      "verb": "go with",
+      "past_simple": "went with",
+      "past_participle": "gone with",
+      "type": "irregular",
+      "future": "will go with",
+      "meaning": "ir con, combinar con"
+    },
+    {
+      "verb": "hold on",
+      "past_simple": "held on",
+      "past_participle": "held on",
+      "type": "irregular",
+      "future": "will hold on",
+      "meaning": "agarrarse, esperar, aguantar"
+    },
+    {
+      "verb": "hold up",
+      "past_simple": "held up",
+      "past_participle": "held up",
+      "type": "irregular",
+      "future": "will hold up",
+      "meaning": "sostener, asaltar, retrasar"
+    },
+    {
+      "verb": "keep on",
+      "past_simple": "kept on",
+      "past_participle": "kept on",
+      "type": "irregular",
+      "future": "will keep on",
+      "meaning": "continuar, seguir"
+    },
+    {
+      "verb": "knock down",
+      "past_simple": "knocked down",
+      "past_participle": "knocked down",
+      "type": "regular",
+      "future": "will knock down",
+      "meaning": "derribar, atropellar"
+    },
+    {
+      "verb": "knock over",
+      "past_simple": "knocked over",
+      "past_participle": "knocked over",
+      "type": "regular",
+      "future": "will knock over",
+      "meaning": "tirar, volcar"
+    },
+    {
+      "verb": "lay down",
+      "past_simple": "laid down",
+      "past_participle": "laid down",
+      "type": "irregular",
+      "future": "will lay down",
+      "meaning": "acostarse, establecer reglas"
+    },
+    {
+      "verb": "lay off",
+      "past_simple": "laid off",
+      "past_participle": "laid off",
+      "type": "irregular",
+      "future": "will lay off",
+      "meaning": "despedir, dejar de molestar"
+    },
+    {
+      "verb": "lead on",
+      "past_simple": "led on",
+      "past_participle": "led on",
+      "type": "irregular",
+      "future": "will lead on",
+      "meaning": "engañar, alentafalsa esperanza"
+    },
+    {
+      "verb": "let down",
+      "past_simple": "let down",
+      "past_participle": "let down",
+      "type": "irregular",
+      "future": "will let down",
+      "meaning": "defraudar, bajarel cabello"
+    },
+    {
+      "verb": "let in",
+      "past_simple": "let in",
+      "past_participle": "let in",
+      "type": "irregular",
+      "future": "will let in",
+      "meaning": "dejar entrar, permitir"
+    },
+    {
+      "verb": "let out",
+      "past_simple": "let out",
+      "past_participle": "let out",
+      "type": "irregular",
+      "future": "will let out",
+      "meaning": "dejar salir, soltar, alquilar"
+    },
+    {
+      "verb": "lie down",
+      "past_simple": "lay down",
+      "past_participle": "lain down",
+      "type": "irregular",
+      "future": "will lie down",
+      "meaning": "acostarse, tumbarse"
+    },
+    {
+      "verb": "lock up",
+      "past_simple": "locked up",
+      "past_participle": "locked up",
+      "type": "regular",
+      "future": "will lock up",
+      "meaning": "cerrar con llave, encarcelar"
+    },
+    {
+      "verb": "look after",
+      "past_simple": "looked after",
+      "past_participle": "looked after",
+      "type": "regular",
+      "future": "will look after",
+      "meaning": "cuidar, atender"
+    },
+    {
+      "verb": "look ahead",
+      "past_simple": "looked ahead",
+      "past_participle": "looked ahead",
+      "type": "regular",
+      "future": "will look ahead",
+      "meaning": "mirar hacia adelante, planear"
+    },
+    {
+      "verb": "look back",
+      "past_simple": "looked back",
+      "past_participle": "looked back",
+      "type": "regular",
+      "future": "will look back",
+      "meaning": "mirar hacia atrás, recordar"
+    },
+    {
+      "verb": "look down on",
+      "past_simple": "looked down on",
+      "past_participle": "looked down on",
+      "type": "regular",
+      "future": "will look down on",
+      "meaning": "despreciar, mirar por encima"
+    },
+    {
+      "verb": "look into",
+      "past_simple": "looked into",
+      "past_participle": "looked into",
+      "type": "regular",
+      "future": "will look into",
+      "meaning": "investigar, indagar"
+    },
+    {
+      "verb": "look out",
+      "past_simple": "looked out",
+      "past_participle": "looked out",
+      "type": "regular",
+      "future": "will look out",
+      "meaning": "tener cuidado, vigilar"
+    },
+    {
+      "verb": "look out for",
+      "past_simple": "looked out for",
+      "past_participle": "looked out for",
+      "type": "regular",
+      "future": "will look out for",
+      "meaning": "cuidarse de, buscar"
+    },
+    {
+      "verb": "look over",
+      "past_simple": "looked over",
+      "past_participle": "looked over",
+      "type": "regular",
+      "future": "will look over",
+      "meaning": "revisar, examinar"
+    },
+    {
+      "verb": "look through",
+      "past_simple": "looked through",
+      "past_participle": "looked through",
+      "type": "regular",
+      "future": "will look through",
+      "meaning": "hojear, revisar"
+    },
+    {
+      "verb": "look up",
+      "past_simple": "looked up",
+      "past_participle": "looked up",
+      "type": "regular",
+      "future": "will look up",
+      "meaning": "buscar, mejorar, visitar"
+    },
+    {
+      "verb": "look up to",
+      "past_simple": "looked up to",
+      "past_participle": "looked up to",
+      "type": "regular",
+      "future": "will look up to",
+      "meaning": "admirar, respetar"
+    },
+    {
+      "verb": "make for",
+      "past_simple": "made for",
+      "past_participle": "made for",
+      "type": "irregular",
+      "future": "will make for",
+      "meaning": "dirigirse hacia, promover"
+    },
+    {
+      "verb": "make off",
+      "past_simple": "made off",
+      "past_participle": "made off",
+      "type": "irregular",
+      "future": "will make off",
+      "meaning": "huir, escapar"
+    },
+    {
+      "verb": "make out",
+      "past_simple": "made out",
+      "past_participle": "made out",
+      "type": "irregular",
+      "future": "will make out",
+      "meaning": "distinguir, entender, besarse"
+    },
+    {
+      "verb": "make over",
+      "past_simple": "made over",
+      "past_participle": "made over",
+      "type": "irregular",
+      "future": "will make over",
+      "meaning": "transformar, cambiar de imagen"
+    },
+    {
+      "verb": "measure up",
+      "past_simple": "measured up",
+      "past_participle": "measured up",
+      "type": "regular",
+      "future": "will measure up",
+      "meaning": "estar a la altura, cumplir expectativas"
+    },
+    {
+      "verb": "move in",
+      "past_simple": "moved in",
+      "past_participle": "moved in",
+      "type": "regular",
+      "future": "will move in",
+      "meaning": "mudarse, entrar"
+    },
+    {
+      "verb": "move on",
+      "past_simple": "moved on",
+      "past_participle": "moved on",
+      "type": "regular",
+      "future": "will move on",
+      "meaning": "seguir adelante, pasar a otro tema"
+    },
+    {
+      "verb": "move out",
+      "past_simple": "moved out",
+      "past_participle": "moved out",
+      "type": "regular",
+      "future": "will move out",
+      "meaning": "mudarse, salir"
+    },
+    {
+      "verb": "narrow down",
+      "past_simple": "narrowed down",
+      "past_participle": "narrowed down",
+      "type": "regular",
+      "future": "will narrow down",
+      "meaning": "reducir, limitar opciones"
+    },
+    {
+      "verb": "pass away",
+      "past_simple": "passed away",
+      "past_participle": "passed away",
+      "type": "regular",
+      "future": "will pass away",
+      "meaning": "fallecer, morir"
+    },
+    {
+      "verb": "pass by",
+      "past_simple": "passed by",
+      "past_participle": "passed by",
+      "type": "regular",
+      "future": "will pass by",
+      "meaning": "pasar por, transcurrir"
+    },
+    {
+      "verb": "pass on",
+      "past_simple": "passed on",
+      "past_participle": "passed on",
+      "type": "regular",
+      "future": "will pass on",
+      "meaning": "transmitir, pasar, fallecer"
+    },
+    {
+      "verb": "pass out",
+      "past_simple": "passed out",
+      "past_participle": "passed out",
+      "type": "regular",
+      "future": "will pass out",
+      "meaning": "desmayarse, distribuir"
+    },
+    {
+      "verb": "pass over",
+      "past_simple": "passed over",
+      "past_participle": "passed over",
+      "type": "regular",
+      "future": "will pass over",
+      "meaning": "pasar por alto, ignorar"
+    },
+    {
+      "verb": "pass up",
+      "past_simple": "passed up",
+      "past_participle": "passed up",
+      "type": "regular",
+      "future": "will pass up",
+      "meaning": "rechazar, dejar pasar una oportunidad"
+    },
+    {
+      "verb": "pay back",
+      "past_simple": "paid back",
+      "past_participle": "paid back",
+      "type": "irregular",
+      "future": "will pay back",
+      "meaning": "devolver dinero, vengarse"
+    },
+    {
+      "verb": "pay off",
+      "past_simple": "paid off",
+      "past_participle": "paid off",
+      "type": "irregular",
+      "future": "will pay off",
+      "meaning": "pagar una deuda, dar resultado"
+    },
+    {
+      "verb": "pick on",
+      "past_simple": "picked on",
+      "past_participle": "picked on",
+      "type": "regular",
+      "future": "will pick on",
+      "meaning": "meterse con, molestar"
+    },
+    {
+      "verb": "pick out",
+      "past_simple": "picked out",
+      "past_participle": "picked out",
+      "type": "regular",
+      "future": "will pick out",
+      "meaning": "elegir, identificar, distinguir"
+    },
+    {
+      "verb": "pile up",
+      "past_simple": "piled up",
+      "past_participle": "piled up",
+      "type": "regular",
+      "future": "will pile up",
+      "meaning": "acumular, amontonar"
+    },
+    {
+      "verb": "play down",
+      "past_simple": "played down",
+      "past_participle": "played down",
+      "type": "regular",
+      "future": "will play down",
+      "meaning": "restar importancia, minimizar"
+    },
+    {
+      "verb": "play up",
+      "past_simple": "played up",
+      "past_participle": "played up",
+      "type": "regular",
+      "future": "will play up",
+      "meaning": "exagerar, destacar"
+    },
+    {
+      "verb": "pull apart",
+      "past_simple": "pulled apart",
+      "past_participle": "pulled apart",
+      "type": "regular",
+      "future": "will pull apart",
+      "meaning": "desmontar, separar"
+    },
+    {
+      "verb": "pull back",
+      "past_simple": "pulled back",
+      "past_participle": "pulled back",
+      "type": "regular",
+      "future": "will pull back",
+      "meaning": "retirarse, echarse atrás"
+    },
+    {
+      "verb": "pull down",
+      "past_simple": "pulled down",
+      "past_participle": "pulled down",
+      "type": "regular",
+      "future": "will pull down",
+      "meaning": "derribar, bajar, reducir"
+    },
+    {
+      "verb": "pull in",
+      "past_simple": "pulled in",
+      "past_participle": "pulled in",
+      "type": "regular",
+      "future": "will pull in",
+      "meaning": "llegar (tren, autobús), ganar dinero"
+    },
+    {
+      "verb": "pull off",
+      "past_simple": "pulled off",
+      "past_participle": "pulled off",
+      "type": "regular",
+      "future": "will pull off",
+      "meaning": "lograr, conseguir"
+    },
+    {
+      "verb": "pull out",
+      "past_simple": "pulled out",
+      "past_participle": "pulled out",
+      "type": "regular",
+      "future": "will pull out",
+      "meaning": "salir (vehículo), retirarse, extraer"
+    },
+    {
+      "verb": "pull over",
+      "past_simple": "pulled over",
+      "past_participle": "pulled over",
+      "type": "regular",
+      "future": "will pull over",
+      "meaning": "estacionarse, detenerse"
+    },
+    {
+      "verb": "pull through",
+      "past_simple": "pulled through",
+      "past_participle": "pulled through",
+      "type": "regular",
+      "future": "will pull through",
+      "meaning": "recuperarse, salir adelante"
+    },
+    {
+      "verb": "pull up",
+      "past_simple": "pulled up",
+      "past_participle": "pulled up",
+      "type": "regular",
+      "future": "will pull up",
+      "meaning": "detenerse, subirse, arrancar"
+    },
+    {
+      "verb": "push ahead",
+      "past_simple": "pushed ahead",
+      "past_participle": "pushed ahead",
+      "type": "regular",
+      "future": "will push ahead",
+      "meaning": "seguir adelante, avanzar"
+    },
+    {
+      "verb": "push around",
+      "past_simple": "pushed around",
+      "past_participle": "pushed around",
+      "type": "regular",
+      "future": "will push around",
+      "meaning": "intimidar, dominar"
+    },
+    {
+      "verb": "push for",
+      "past_simple": "pushed for",
+      "past_participle": "pushed for",
+      "type": "regular",
+      "future": "will push for",
+      "meaning": "abogar por, presionar"
+    },
+    {
+      "verb": "push off",
+      "past_simple": "pushed off",
+      "past_participle": "pushed off",
+      "type": "regular",
+      "future": "will push off",
+      "meaning": "empujar, largarse"
+    },
+    {
+      "verb": "put aside",
+      "past_simple": "put aside",
+      "past_participle": "put aside",
+      "type": "irregular",
+      "future": "will put aside",
+      "meaning": "dejar de lado, guardar"
+    },
+    {
+      "verb": "put back",
+      "past_simple": "put back",
+      "past_participle": "put back",
+      "type": "irregular",
+      "future": "will put back",
+      "meaning": "devolver, atrasar (reloj)"
+    },
+    {
+      "verb": "put down",
+      "past_simple": "put down",
+      "past_participle": "put down",
+      "type": "irregular",
+      "future": "will put down",
+      "meaning": "dejar, criticar, sacrificar (animal)"
+    },
+    {
+      "verb": "put forward",
+      "past_simple": "put forward",
+      "past_participle": "put forward",
+      "type": "irregular",
+      "future": "will put forward",
+      "meaning": "proponer, adelantar (reloj)"
+    },
+    {
+      "verb": "put in",
+      "past_simple": "put in",
+      "past_participle": "put in",
+      "type": "irregular",
+      "future": "will put in",
+      "meaning": "instalar, presentar una solicitud"
+    },
+    {
+      "verb": "put off",
+      "past_simple": "put off",
+      "past_participle": "put off",
+      "type": "irregular",
+      "future": "will put off",
+      "meaning": "aplazar, desanimar"
+    },
+    {
+      "verb": "put out",
+      "past_simple": "put out",
+      "past_participle": "put out",
+      "type": "irregular",
+      "future": "will put out",
+      "meaning": "apagar, sacar, incomodar"
+    },
+    {
+      "verb": "put through",
+      "past_simple": "put through",
+      "past_participle": "put through",
+      "type": "irregular",
+      "future": "will put through",
+      "meaning": "conectar (teléfono), hacer pasar"
+    },
+    {
+      "verb": "put up",
+      "past_simple": "put up",
+      "past_participle": "put up",
+      "type": "irregular",
+      "future": "will put up",
+      "meaning": "colgar, construir, alojar"
+    },
+    {
+      "verb": "read over",
+      "past_simple": "read over",
+      "past_participle": "read over",
+      "type": "irregular",
+      "future": "will read over",
+      "meaning": "releer, revisar"
+    },
+    {
+      "verb": "read through",
+      "past_simple": "read through",
+      "past_participle": "read through",
+      "type": "irregular",
+      "future": "will read through",
+      "meaning": "leer completamente, revisar"
+    },
+    {
+      "verb": "read up on",
+      "past_simple": "read up on",
+      "past_participle": "read up on",
+      "type": "irregular",
+      "future": "will read up on",
+      "meaning": "documentarse sobre, investigar leyendo"
+    },
+    {
+      "verb": "rule out",
+      "past_simple": "ruled out",
+      "past_participle": "ruled out",
+      "type": "regular",
+      "future": "will rule out",
+      "meaning": "descartar, excluir"
+    },
+    {
+      "verb": "run across",
+      "past_simple": "ran across",
+      "past_participle": "run across",
+      "type": "irregular",
+      "future": "will run across",
+      "meaning": "encontrarse con, tropezar con"
+    },
+    {
+      "verb": "run away",
+      "past_simple": "ran away",
+      "past_participle": "run away",
+      "type": "irregular",
+      "future": "will run away",
+      "meaning": "huir, escapar"
+    },
+    {
+      "verb": "run down",
+      "past_simple": "ran down",
+      "past_participle": "run down",
+      "type": "irregular",
+      "future": "will run down",
+      "meaning": "atropellar, criticar, agotar"
+    },
+    {
+      "verb": "run into",
+      "past_simple": "ran into",
+      "past_participle": "run into",
+      "type": "irregular",
+      "future": "will run into",
+      "meaning": "encontrarse con, chocar con"
+    },
+    {
+      "verb": "run over",
+      "past_simple": "ran over",
+      "past_participle": "run over",
+      "type": "irregular",
+      "future": "will run over",
+      "meaning": "atropellar, repasar"
+    },
+    {
+      "verb": "run through",
+      "past_simple": "ran through",
+      "past_participle": "run through",
+      "type": "irregular",
+      "future": "will run through",
+      "meaning": "repasar, ensayar"
+    },
+    {
+      "verb": "run up",
+      "past_simple": "ran up",
+      "past_participle": "run up",
+      "type": "irregular",
+      "future": "will run up",
+      "meaning": "acumular, subir corriendo"
+    },
+    {
+      "verb": "sell off",
+      "past_simple": "sold off",
+      "past_participle": "sold off",
+      "type": "irregular",
+      "future": "will sell off",
+      "meaning": "vender, liquidar existencias"
+    },
+    {
+      "verb": "sell out",
+      "past_simple": "sold out",
+      "past_participle": "sold out",
+      "type": "irregular",
+      "future": "will sell out",
+      "meaning": "agotarse, traicionarse"
+    },
+    {
+      "verb": "send away",
+      "past_simple": "sent away",
+      "past_participle": "sent away",
+      "type": "irregular",
+      "future": "will send away",
+      "meaning": "despedir, enviar lejos"
+    },
+    {
+      "verb": "send back",
+      "past_simple": "sent back",
+      "past_participle": "sent back",
+      "type": "irregular",
+      "future": "will send back",
+      "meaning": "devolver, enviar de vuelta"
+    },
+    {
+      "verb": "send for",
+      "past_simple": "sent for",
+      "past_participle": "sent for",
+      "type": "irregular",
+      "future": "will send for",
+      "meaning": "mandar a buscar, solicitar"
+    },
+    {
+      "verb": "send in",
+      "past_simple": "sent in",
+      "past_participle": "sent in",
+      "type": "irregular",
+      "future": "will send in",
+      "meaning": "enviar, presentar"
+    },
+    {
+      "verb": "send out",
+      "past_simple": "sent out",
+      "past_participle": "sent out",
+      "type": "irregular",
+      "future": "will send out",
+      "meaning": "enviar, distribuir"
+    },
+    {
+      "verb": "set aside",
+      "past_simple": "set aside",
+      "past_participle": "set aside",
+      "type": "irregular",
+      "future": "will set aside",
+      "meaning": "dejar de lado, reservar"
+    },
+    {
+      "verb": "set back",
+      "past_simple": "set back",
+      "past_participle": "set back",
+      "type": "irregular",
+      "future": "will set back",
+      "meaning": "atrasar, retrasar"
+    },
+    {
+      "verb": "set down",
+      "past_simple": "set down",
+      "past_participle": "set down",
+      "type": "irregular",
+      "future": "will set down",
+      "meaning": "escribir, establecer"
+    },
+    {
+      "verb": "set off",
+      "past_simple": "set off",
+      "past_participle": "set off",
+      "type": "irregular",
+      "future": "will set off",
+      "meaning": "partir, provocar, destacar"
+    },
+    {
+      "verb": "set out",
+      "past_simple": "set out",
+      "past_participle": "set out",
+      "type": "irregular",
+      "future": "will set out",
+      "meaning": "comenzar, proponer, exponer"
+    },
+    {
+      "verb": "settle down",
+      "past_simple": "settled down",
+      "past_participle": "settled down",
+      "type": "regular",
+      "future": "will settle down",
+      "meaning": "establecerse, calmarse"
+    },
+    {
+      "verb": "settle for",
+      "past_simple": "settled for",
+      "past_participle": "settled for",
+      "type": "regular",
+      "future": "will settle for",
+      "meaning": "conformarse con, aceptar"
+    },
+    {
+      "verb": "settle in",
+      "past_simple": "settled in",
+      "past_participle": "settled in",
+      "type": "regular",
+      "future": "will settle in",
+      "meaning": "instalarse, adaptarse"
+    },
+    {
+      "verb": "settle up",
+      "past_simple": "settled up",
+      "past_participle": "settled up",
+      "type": "regular",
+      "future": "will settle up",
+      "meaning": "saldar cuentas, pagar"
+    },
+    {
+      "verb": "shake off",
+      "past_simple": "shook off",
+      "past_participle": "shaken off",
+      "type": "irregular",
+      "future": "will shake off",
+      "meaning": "sacudirse, deshacerse de"
+    },
+    {
+      "verb": "shake up",
+      "past_simple": "shook up",
+      "past_participle": "shaken up",
+      "type": "irregular",
+      "future": "will shake up",
+      "meaning": "conmocionar, reorganizar"
+    },
+    {
+      "verb": "shape up",
+      "past_simple": "shaped up",
+      "past_participle": "shaped up",
+      "type": "regular",
+      "future": "will shape up",
+      "meaning": "mejorar, estar en forma"
+    },
+    {
+      "verb": "shut down",
+      "past_simple": "shut down",
+      "past_participle": "shut down",
+      "type": "irregular",
+      "future": "will shut down",
+      "meaning": "cerrar, apagar"
+    },
+    {
+      "verb": "shut up",
+      "past_simple": "shut up",
+      "past_participle": "shut up",
+      "type": "irregular",
+      "future": "will shut up",
+      "meaning": "callarse, cerrar"
+    },
+    {
+      "verb": "sign in",
+      "past_simple": "signed in",
+      "past_participle": "signed in",
+      "type": "regular",
+      "future": "will sign in",
+      "meaning": "registrarse, firmar entrada"
+    },
+    {
+      "verb": "sign out",
+      "past_simple": "signed out",
+      "past_participle": "signed out",
+      "type": "regular",
+      "future": "will sign out",
+      "meaning": "salir de sesión, firmar salida"
+    },
+    {
+      "verb": "sign up",
+      "past_simple": "signed up",
+      "past_participle": "signed up",
+      "type": "regular",
+      "future": "will sign up",
+      "meaning": "inscribirse, registrarse"
+    },
+    {
+      "verb": "slow down",
+      "past_simple": "slowed down",
+      "past_participle": "slowed down",
+      "type": "regular",
+      "future": "will slow down",
+      "meaning": "ralentizar, ir más lentamente"
+    },
+    {
+      "verb": "speed up",
+      "past_simple": "sped up",
+      "past_participle": "sped up",
+      "type": "irregular",
+      "future": "will speed up",
+      "meaning": "acelerar, apresurar"
+    },
+    {
+      "verb": "speak up",
+      "past_simple": "spoke up",
+      "past_participle": "spoken up",
+      "type": "irregular",
+      "future": "will speak up",
+      "meaning": "hablar más fuerte, expresar opinión"
+    },
+    {
+      "verb": "speak out",
+      "past_simple": "spoke out",
+      "past_participle": "spoken out",
+      "type": "irregular",
+      "future": "will speak out",
+      "meaning": "hablar contra, expresarse"
+    },
+    {
+      "verb": "spell out",
+      "past_simple": "spelled out",
+      "past_participle": "spelled out",
+      "type": "regular",
+      "future": "will spell out",
+      "meaning": "deletrear, explicar detalladamente"
+    },
+    {
+      "verb": "split up",
+      "past_simple": "split up",
+      "past_participle": "split up",
+      "type": "irregular",
+      "future": "will split up",
+      "meaning": "separarse, dividirse"
+    },
+    {
+      "verb": "spread out",
+      "past_simple": "spread out",
+      "past_participle": "spread out",
+      "type": "irregular",
+      "future": "will spread out",
+      "meaning": "extender, dispersar"
+    },
+    {
+      "verb": "spring up",
+      "past_simple": "sprang up",
+      "past_participle": "sprung up",
+      "type": "irregular",
+      "future": "will spring up",
+      "meaning": "surgir, brotar"
+    },
+    {
+      "verb": "stand for",
+      "past_simple": "stood for",
+      "past_participle": "stood for",
+      "type": "irregular",
+      "future": "will stand for",
+      "meaning": "tolerar, significar, representar"
+    },
+    {
+      "verb": "stand out",
+      "past_simple": "stood out",
+      "past_participle": "stood out",
+      "type": "irregular",
+      "future": "will stand out",
+      "meaning": "destacar, sobresalir"
+    },
+    {
+      "verb": "start up",
+      "past_simple": "started up",
+      "past_participle": "started up",
+      "type": "regular",
+      "future": "will start up",
+      "meaning": "arrancar, poner en marcha"
+    },
+    {
+      "verb": "stick around",
+      "past_simple": "stuck around",
+      "past_participle": "stuck around",
+      "type": "irregular",
+      "future": "will stick around",
+      "meaning": "quedarse, permanecer"
+    },
+    {
+      "verb": "stick to",
+      "past_simple": "stuck to",
+      "past_participle": "stuck to",
+      "type": "irregular",
+      "future": "will stick to",
+      "meaning": "adherirse, mantenerse firme"
+    },
+    {
+      "verb": "stick up for",
+      "past_simple": "stuck up for",
+      "past_participle": "stuck up for",
+      "type": "irregular",
+      "future": "will stick up for",
+      "meaning": "defender, apoyar"
+    },
+    {
+      "verb": "stir up",
+      "past_simple": "stirred up",
+      "past_participle": "stirred up",
+      "type": "regular",
+      "future": "will stir up",
+      "meaning": "agitar, provocar"
+    },
+    {
+      "verb": "stop by",
+      "past_simple": "stopped by",
+      "past_participle": "stopped by",
+      "type": "regular",
+      "future": "will stop by",
+      "meaning": "pasar por, visitar brevemente"
+    },
+    {
+      "verb": "strike out",
+      "past_simple": "struck out",
+      "past_participle": "struck out",
+      "type": "irregular",
+      "future": "will strike out",
+      "meaning": "tachar, fracasar, partir"
+    },
+    {
+      "verb": "switch on",
+      "past_simple": "switched on",
+      "past_participle": "switched on",
+      "type": "regular",
+      "future": "will switch on",
+      "meaning": "encender, activar"
+    },
+    {
+      "verb": "switch off",
+      "past_simple": "switched off",
+      "past_participle": "switched off",
+      "type": "regular",
+      "future": "will switch off",
+      "meaning": "apagar, desactivar"
+    },
+    {
+      "verb": "take away",
+      "past_simple": "took away",
+      "past_participle": "taken away",
+      "type": "irregular",
+      "future": "will take away",
+      "meaning": "llevar, quitar, restar"
+    },
+    {
+      "verb": "take back",
+      "past_simple": "took back",
+      "past_participle": "taken back",
+      "type": "irregular",
+      "future": "will take back",
+      "meaning": "retractarse, devolver"
+    },
+    {
+      "verb": "take down",
+      "past_simple": "took down",
+      "past_participle": "taken down",
+      "type": "irregular",
+      "future": "will take down",
+      "meaning": "derribar, apuntar, anotar"
+    },
+    {
+      "verb": "take in",
+      "past_simple": "took in",
+      "past_participle": "taken in",
+      "type": "irregular",
+      "future": "will take in",
+      "meaning": "acoger, entender, engañar"
+    },
+    {
+      "verb": "take off",
+      "past_simple": "took off",
+      "past_participle": "taken off",
+      "type": "irregular",
+      "future": "will take off",
+      "meaning": "despegar, quitarse, ausentarse"
+    },
+    {
+      "verb": "take on",
+      "past_simple": "took on",
+      "past_participle": "taken on",
+      "type": "irregular",
+      "future": "will take on",
+      "meaning": "aceptar, contratar, adquirir"
+    },
+    {
+      "verb": "take over",
+      "past_simple": "took over",
+      "past_participle": "taken over",
+      "type": "irregular",
+      "future": "will take over",
+      "meaning": "asumir, hacerse cargo, absorber"
+    },
+    {
+      "verb": "take to",
+      "past_simple": "took to",
+      "past_participle": "taken to",
+      "type": "irregular",
+      "future": "will take to",
+      "meaning": "empezar a, gustarle a alguien"
+    },
+    {
+      "verb": "take up",
+      "past_simple": "took up",
+      "past_participle": "taken up",
+      "type": "irregular",
+      "future": "will take up",
+      "meaning": "ocupar espacio, empezar hobby"
+    },
+    {
+      "verb": "tell apart",
+      "past_simple": "told apart",
+      "past_participle": "told apart",
+      "type": "irregular",
+      "future": "will tell apart",
+      "meaning": "distinguir, diferenciar"
+    },
+    {
+      "verb": "throw away",
+      "past_simple": "threw away",
+      "past_participle": "thrown away",
+      "type": "irregular",
+      "future": "will throw away",
+      "meaning": "tirar, desechar"
+    },
+    {
+      "verb": "throw out",
+      "past_simple": "threw out",
+      "past_participle": "thrown out",
+      "type": "irregular",
+      "future": "will throw out",
+      "meaning": "sacar, desechar, expulsar"
+    },
+    {
+      "verb": "throw up",
+      "past_simple": "threw up",
+      "past_participle": "thrown up",
+      "type": "irregular",
+      "future": "will throw up",
+      "meaning": "vomitar, construir rápidamente"
+    },
+    {
+      "verb": "tie down",
+      "past_simple": "tied down",
+      "past_participle": "tied down",
+      "type": "regular",
+      "future": "will tie down",
+      "meaning": "amarrar, limitar libertad"
+    },
+    {
+      "verb": "tie up",
+      "past_simple": "tied up",
+      "past_participle": "tied up",
+      "type": "regular",
+      "future": "will tie up",
+      "meaning": "atar, ocupado"
+    },
+    {
+      "verb": "tone down",
+      "past_simple": "toned down",
+      "past_participle": "toned down",
+      "type": "regular",
+      "future": "will tone down",
+      "meaning": "suavizar, moderar"
+    },
+    {
+      "verb": "touch down",
+      "past_simple": "touched down",
+      "past_participle": "touched down",
+      "type": "regular",
+      "future": "will touch down",
+      "meaning": "aterrizar"
+    },
+    {
+      "verb": "track down",
+      "past_simple": "tracked down",
+      "past_participle": "tracked down",
+      "type": "regular",
+      "future": "will track down",
+      "meaning": "localizar, rastrear"
+    },
+    {
+      "verb": "try out",
+      "past_simple": "tried out",
+      "past_participle": "tried out",
+      "type": "regular",
+      "future": "will try out",
+      "meaning": "probar, hacer pruebas"
+    },
+    {
+      "verb": "tune in",
+      "past_simple": "tuned in",
+      "past_participle": "tuned in",
+      "type": "regular",
+      "future": "will tune in",
+      "meaning": "sintonizar, conectar"
+    },
+    {
+      "verb": "tune up",
+      "past_simple": "tuned up",
+      "past_participle": "tuned up",
+      "type": "regular",
+      "future": "will tune up",
+      "meaning": "afinar, poner a punto"
+    },
+    {
+      "verb": "turn around",
+      "past_simple": "turned around",
+      "past_participle": "turned around",
+      "type": "regular",
+      "future": "will turn around",
+      "meaning": "girar, mejorar la situación"
+    },
+    {
+      "verb": "turn down",
+      "past_simple": "turned down",
+      "past_participle": "turned down",
+      "type": "regular",
+      "future": "will turn down",
+      "meaning": "bajar volumen, rechazar"
+    },
+    {
+      "verb": "turn in",
+      "past_simple": "turned in",
+      "past_participle": "turned in",
+      "type": "regular",
+      "future": "will turn in",
+      "meaning": "entregar, acostarse"
+    },
+    {
+      "verb": "turn into",
+      "past_simple": "turned into",
+      "past_participle": "turned into",
+      "type": "regular",
+      "future": "will turn into",
+      "meaning": "convertirse en, transformarse"
+    },
+    {
+      "verb": "turn out",
+      "past_simple": "turned out",
+      "past_participle": "turned out",
+      "type": "regular",
+      "future": "will turn out",
+      "meaning": "resultar, apagar luces"
+    },
+    {
+      "verb": "turn over",
+      "past_simple": "turned over",
+      "past_participle": "turned over",
+      "type": "regular",
+      "future": "will turn over",
+      "meaning": "voltear, entregar, cambiar de canal"
+    },
+    {
+      "verb": "turn up",
+      "past_simple": "turned up",
+      "past_participle": "turned up",
+      "type": "regular",
+      "future": "will turn up",
+      "meaning": "subir volumen, aparecer"
+    },
+    {
+      "verb": "use up",
+      "past_simple": "used up",
+      "past_participle": "used up",
+      "type": "regular",
+      "future": "will use up",
+      "meaning": "agotar, consumir"
+    },
+    {
+      "verb": "warm up",
+      "past_simple": "warmed up",
+      "past_participle": "warmed up",
+      "type": "regular",
+      "future": "will warm up",
+      "meaning": "calentarse, calentar"
+    },
+    {
+      "verb": "wash away",
+      "past_simple": "washed away",
+      "past_participle": "washed away",
+      "type": "regular",
+      "future": "will wash away",
+      "meaning": "lavar, arrastrar"
+    },
+    {
+      "verb": "wash off",
+      "past_simple": "washed off",
+      "past_participle": "washed off",
+      "type": "regular",
+      "future": "will wash off",
+      "meaning": "lavar, quitar frotando"
+    },
+    {
+      "verb": "wash up",
+      "past_simple": "washed up",
+      "past_participle": "washed up",
+      "type": "regular",
+      "future": "will wash up",
+      "meaning": "lavarse las manos, fregar platos"
+    },
+    {
+      "verb": "watch out",
+      "past_simple": "watched out",
+      "past_participle": "watched out",
+      "type": "regular",
+      "future": "will watch out",
+      "meaning": "tener cuidado, vigilar"
+    },
+    {
+      "verb": "watch out for",
+      "past_simple": "watched out for",
+      "past_participle": "watched out for",
+      "type": "regular",
+      "future": "will watch out for",
+      "meaning": "cuidarse de, vigilar"
+    },
+    {
+      "verb": "wear away",
+      "past_simple": "wore away",
+      "past_participle": "worn away",
+      "type": "irregular",
+      "future": "will wear away",
+      "meaning": "desgastarse, erosionarse"
+    },
+    {
+      "verb": "wear off",
+      "past_simple": "wore off",
+      "past_participle": "worn off",
+      "type": "irregular",
+      "future": "will wear off",
+      "meaning": "desgastarse, desvanecerse"
+    },
+    {
+      "verb": "wear out",
+      "past_simple": "wore out",
+      "past_participle": "worn out",
+      "type": "irregular",
+      "future": "will wear out",
+      "meaning": "desgastar, agotar"
+    },
+    {
+      "verb": "weigh in",
+      "past_simple": "weighed in",
+      "past_participle": "weighed in",
+      "type": "regular",
+      "future": "will weigh in",
+      "meaning": "opinar, participar"
+    },
+    {
+      "verb": "weigh on",
+      "past_simple": "weighed on",
+      "past_participle": "weighed on",
+      "type": "regular",
+      "future": "will weigh on",
+      "meaning": "preocupar, pesar sobre"
+    },
+    {
+      "verb": "wipe away",
+      "past_simple": "wiped away",
+      "past_participle": "wiped away",
+      "type": "regular",
+      "future": "will wipe away",
+      "meaning": "secar, eliminar"
+    },
+    {
+      "verb": "wipe off",
+      "past_simple": "wiped off",
+      "past_participle": "wiped off",
+      "type": "regular",
+      "future": "will wipe off",
+      "meaning": "secar, limpiar"
+    },
+    {
+      "verb": "wipe out",
+      "past_simple": "wiped out",
+      "past_participle": "wiped out",
+      "type": "regular",
+      "future": "will wipe out",
+      "meaning": "aniquilar, exterminar, cansarse"
+    },
+    {
+      "verb": "work through",
+      "past_simple": "worked through",
+      "past_participle": "worked through",
+      "type": "regular",
+      "future": "will work through",
+      "meaning": "resolver, trabajar en"
+    },
+    {
+      "verb": "work toward",
+      "past_simple": "worked toward",
+      "past_participle": "worked toward",
+      "type": "regular",
+      "future": "will work toward",
+      "meaning": "trabajar para lograr, encaminarse"
+    },
+    {
+      "verb": "wrap up",
+      "past_simple": "wrapped up",
+      "past_participle": "wrapped up",
+      "type": "regular",
+      "future": "will wrap up",
+      "meaning": "terminar, envolver"
+    },
+    {
+      "verb": "write down",
+      "past_simple": "wrote down",
+      "past_participle": "written down",
+      "type": "irregular",
+      "future": "will write down",
+      "meaning": "escribir, anotar"
+    },
+    {
+      "verb": "write out",
+      "past_simple": "wrote out",
+      "past_participle": "written out",
+      "type": "irregular",
+      "future": "will write out",
+      "meaning": "escribir completamente, redactar"
+    },
+    {
+      "verb": "write up",
+      "past_simple": "wrote up",
+      "past_participle": "written up",
+      "type": "irregular",
+      "future": "will write up",
+      "meaning": "redactar, escribir un informe"
+    },
+    {
+      "verb": "zoom in",
+      "past_simple": "zoomed in",
+      "past_participle": "zoomed in",
+      "type": "regular",
+      "future": "will zoom in",
+      "meaning": "ampliar, acercarse"
+    },
+    {
+      "verb": "zoom out",
+      "past_simple": "zoomed out",
+      "past_participle": "zoomed out",
+      "type": "regular",
+      "future": "will zoom out",
+      "meaning": "alejar, reducir zoom"
+    }
+  ]
+}
