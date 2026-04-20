@@ -61,8 +61,14 @@ export default function SidebarLayout({
   return (
     <div
       className={cn(
-        "flex flex-col md:flex-row h-screen w-screen overflow-hidden bg-gray-100 dark:bg-neutral-900",
-      )}>
+        "flex flex-col md:flex-row h-[100dvh] w-full overflow-hidden bg-gray-100 dark:bg-neutral-900",
+      )}
+      style={{
+        paddingTop: "env(safe-area-inset-top)",
+        paddingBottom: "env(safe-area-inset-bottom)",
+        paddingLeft: "env(safe-area-inset-left)",
+        paddingRight: "env(safe-area-inset-right)",
+      }}>
       <Sidebar
         open={open}
         setOpen={setOpen}>
