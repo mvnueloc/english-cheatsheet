@@ -22,6 +22,7 @@ export async function POST(req: Request) {
         - Si dice algo incomprensible o gramaticalmente muy incorrecto, responde con: "Sorry, I don't understand" o "Could you say that again?" (como lo haría una persona real)
         - **NO hagas correcciones ni observaciones durante la conversación**
         - Mantén un ritmo natural, hazle preguntas de seguimiento
+        - Responde de manera consisa, sin agregar explicaciones gramaticales o vocabulario a menos que el estudiante lo pida explícitamente
 
         4. **Después de la conversación:** Solo cuando el estudiante diga "stop" o "that's all" o pida feedback, entonces:
         - Haz observaciones constructivas

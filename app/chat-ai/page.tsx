@@ -17,7 +17,7 @@ const SUGGESTIONS = [
 
 export default function ChatPage() {
   const { messages, status, sendMessage } = useChat({
-    onError: (e) => console.error("❌ UI useChat Error:", e),
+    onError: (e) => console.error("UI useChat Error:", e),
   });
 
   const isLoading = status === "submitted" || status === "streaming";
