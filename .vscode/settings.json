@@ -9,6 +9,8 @@
         "/^cat << 'EOF' > patch2\\.js\nconst fs = require\\('fs'\\);\nlet code = fs\\.readFileSync\\('app/api/chat/route\\.ts', 'utf-8'\\);\n\ncode = code\\.replace\\(\n  `return result\\.toTextStreamResponse\\(\\);`,\n  `return result\\.toUIMessageStreamResponse\\(\\);`\n\\);\n\nfs\\.writeFileSync\\('app/api/chat/route\\.ts', code\\);\nEOF\nnode patch2\\.js$/": {
             "approve": true,
             "matchCommandLine": true
-        }
+        },
+        "npx eslint": true,
+        "npx prettier": true
     }
 }

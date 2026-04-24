@@ -23,6 +23,7 @@ import {
   Leaf,
   Settings,
   Sparkles,
+  Shuffle,
 } from "lucide-react";
 import type { EmblaOptionsType } from "embla-carousel";
 
@@ -112,6 +113,15 @@ const carouselOptions: EmblaOptionsType = {
   dragFree: false,
 };
 
+const shuffleArray = <T,>(array: T[]): T[] => {
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+};
+
 export default function VerbsFlashCardPage() {
   const [verbs, setVerbs] = React.useState<Verb[]>([]);
   const [isLoading, setIsLoading] = React.useState(false);
@@ -169,11 +179,12 @@ export default function VerbsFlashCardPage() {
         };
 
         const received = Array.isArray(data.verbs) ? data.verbs : [];
+        const processed = mode === "reset" ? shuffleArray(received) : received;
         const totalCount = typeof data.total === "number" ? data.total : 0;
         const newOffset = nextOffset + received.length;
 
         setVerbs((prev) =>
-          mode === "reset" ? received : [...prev, ...received],
+          mode === "reset" ? processed : [...prev, ...processed],
         );
         setOffset(newOffset);
         setTotal(totalCount);
@@ -224,6 +235,10 @@ export default function VerbsFlashCardPage() {
     },
     [hasMore, isLoading, loadMore, slides.length],
   );
+  
+  const handleShuffle = React.useCallback(() => {
+    setVerbs((prev) => shuffleArray(prev));
+  }, []);
 
   const toggleStatus = (status: Status) => {
     setStatusFilters((prev) =>
@@ -254,62 +269,66 @@ export default function VerbsFlashCardPage() {
           </p>
         </div>
 
-        <Dialog>
-          <DialogTrigger asChild>
-            <Button
-              variant="outline"
-              className="gap-2 self-start">
-              <Settings className="size-4" />
-              Filtros
-            </Button>
-          </DialogTrigger>
-          <DialogContent className="sm:max-w-md">
-            <DialogHeader>
-              <DialogTitle>Filtros</DialogTitle>
-              <DialogDescription>
-                Personaliza qué verbos quieres ver en las flashcards.
-              </DialogDescription>
-            </DialogHeader>
+        <div className="flex flex-wrap items-center gap-2 self-start">
+          <Button variant="outline" className="gap-2" onClick={handleShuffle}>
+            <Shuffle className="size-4" />
+            Mezclar tarjetas
+          </Button>
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant="outline" className="gap-2">
+                <Settings className="size-4" />
+                Filtros
+              </Button>
+            </DialogTrigger>
+            <DialogContent className="sm:max-w-md">
+              <DialogHeader>
+                <DialogTitle>Filtros</DialogTitle>
+                <DialogDescription>
+                  Personaliza qué verbos quieres ver en las flashcards.
+                </DialogDescription>
+              </DialogHeader>
 
-            <div className="space-y-5">
-              <div className="space-y-3">
-                <p className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">
-                  Estado de aprendizaje
-                </p>
+              <div className="space-y-5">
                 <div className="space-y-3">
-                  {(Object.keys(STATUS_LABELS) as Status[]).map((status) => (
-                    <FilterRow
-                      key={status}
-                      label={STATUS_LABELS[status]}
-                      icon={STATUS_META[status].icon}
-                      iconClass={STATUS_META[status].iconClass}
-                      checked={statusFilters.includes(status)}
-                      onCheckedChange={() => toggleStatus(status)}
-                    />
-                  ))}
+                  <p className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">
+                    Estado de aprendizaje
+                  </p>
+                  <div className="space-y-3">
+                    {(Object.keys(STATUS_LABELS) as Status[]).map((status) => (
+                      <FilterRow
+                        key={status}
+                        label={STATUS_LABELS[status]}
+                        icon={STATUS_META[status].icon}
+                        iconClass={STATUS_META[status].iconClass}
+                        checked={statusFilters.includes(status)}
+                        onCheckedChange={() => toggleStatus(status)}
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <p className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">
+                    Tipo de verbo
+                  </p>
+                  <div className="space-y-3">
+                    {(Object.keys(TYPE_META) as VerbType[]).map((type) => (
+                      <FilterRow
+                        key={type}
+                        label={TYPE_META[type].label}
+                        icon={TYPE_META[type].icon}
+                        iconClass={TYPE_META[type].iconClass}
+                        checked={typeFilters.includes(type)}
+                        onCheckedChange={() => toggleType(type)}
+                      />
+                    ))}
+                  </div>
                 </div>
               </div>
-
-              <div className="space-y-3">
-                <p className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">
-                  Tipo de verbo
-                </p>
-                <div className="space-y-3">
-                  {(Object.keys(TYPE_META) as VerbType[]).map((type) => (
-                    <FilterRow
-                      key={type}
-                      label={TYPE_META[type].label}
-                      icon={TYPE_META[type].icon}
-                      iconClass={TYPE_META[type].iconClass}
-                      checked={typeFilters.includes(type)}
-                      onCheckedChange={() => toggleType(type)}
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-          </DialogContent>
-        </Dialog>
+            </DialogContent>
+          </Dialog>
+        </div>
       </header>
 
       <section className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-800 dark:bg-neutral-900 md:p-6 h-full">
@@ -319,7 +338,8 @@ export default function VerbsFlashCardPage() {
             <Button
               variant="outline"
               onClick={() => void loadMore("reset")}
-              disabled={isLoading}>
+              disabled={isLoading}
+            >
               Reintentar
             </Button>
           </div>
@@ -401,10 +421,7 @@ function FilterRow(props: FilterRowProps) {
           {label}
         </p>
       </div>
-      <Switch
-        checked={checked}
-        onCheckedChange={onCheckedChange}
-      />
+      <Switch checked={checked} onCheckedChange={onCheckedChange} />
     </div>
   );
 }
@@ -428,7 +445,8 @@ function VerbFront(props: VerbFrontProps) {
         className={cn(
           "border px-3 py-1 text-sm font-semibold md:px-4 md:py-1.5 md:text-base gap-2",
           TYPE_META[verb.type].badgeClass,
-        )}>
+        )}
+      >
         <TypeIcon type={verb.type} />
         {TYPE_META[verb.type].label}
       </Badge>
@@ -458,22 +476,10 @@ function VerbBack(props: VerbBackProps) {
       </div>
 
       <div className="grid grid-cols-2 gap-3 text-left md:gap-4">
-        <VerbDetail
-          label="Pasado simple"
-          value={verb.past_simple}
-        />
-        <VerbDetail
-          label="Pasado perfecto"
-          value={verb.past_participle}
-        />
-        <VerbDetail
-          label="Futuro"
-          value={verb.future}
-        />
-        <VerbDetail
-          label="Tipo"
-          value={TYPE_META[verb.type].label}
-        />
+        <VerbDetail label="Pasado simple" value={verb.past_simple} />
+        <VerbDetail label="Pasado perfecto" value={verb.past_participle} />
+        <VerbDetail label="Futuro" value={verb.future} />
+        <VerbDetail label="Tipo" value={TYPE_META[verb.type].label} />
       </div>
 
       <div className="flex items-center justify-center">
@@ -482,7 +488,8 @@ function VerbBack(props: VerbBackProps) {
           className={cn(
             "border px-3 py-1 text-sm font-semibold md:px-4 md:py-1.5 md:text-base gap-2",
             TYPE_META[verb.type].badgeClass,
-          )}>
+          )}
+        >
           <TypeIcon type={verb.type} />
           {TYPE_META[verb.type].label}
         </Badge>
